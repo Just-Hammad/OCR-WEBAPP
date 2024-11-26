@@ -1,0 +1,812 @@
+[2024-11-26T09:38:42.274Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T09:39:50.815Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T09:40:57.670Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T09:40:57.673Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T09:41:24.567Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T09:41:24.568Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T09:43:25.186Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T09:43:41.539Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T09:43:58.458Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T09:43:58.461Z] ERROR: OCR Processing Error for file Rana Muhammad Hammad Arif-Fahad Abbas-Husnain Khurshid-Assignment_1.pdf: Unsupported file type: 
+[2024-11-26T09:43:58.463Z] ERROR: Full error stack: Error: Unsupported file type: 
+    at OCRProcessor.extractTextFromFile (D:\GitHub\Google-Vision-OCR\webapp\server.js:46:23)
+    at D:\GitHub\Google-Vision-OCR\webapp\server.js:214:50
+    at Layer.handle [as handle_request] (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:531:35)
+    at finish (node:internal/streams/writable:946:10)
+[2024-11-26T09:46:47.414Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T09:46:47.417Z] ERROR: OCR Processing Error for file Rana Muhammad Hammad Arif-Fahad Abbas-Husnain Khurshid-Assignment_1.pdf: Unsupported file type: 
+[2024-11-26T09:46:47.418Z] ERROR: Full error stack: Error: Unsupported file type: 
+    at OCRProcessor.extractTextFromFile (D:\GitHub\Google-Vision-OCR\webapp\server.js:46:23)
+    at D:\GitHub\Google-Vision-OCR\webapp\server.js:214:50
+    at Layer.handle [as handle_request] (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:531:35)
+    at finish (node:internal/streams/writable:946:10)
+[2024-11-26T09:46:59.214Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T09:46:59.215Z] ERROR: OCR Processing Error for file Rana Muhammad Hammad Arif-Fahad Abbas-Husnain Khurshid-Assignment_1.pdf: Unsupported file type: 
+[2024-11-26T09:46:59.216Z] ERROR: Full error stack: Error: Unsupported file type: 
+    at OCRProcessor.extractTextFromFile (D:\GitHub\Google-Vision-OCR\webapp\server.js:46:23)
+    at D:\GitHub\Google-Vision-OCR\webapp\server.js:214:50
+    at Layer.handle [as handle_request] (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:531:35)
+    at finish (node:internal/streams/writable:946:10)
+[2024-11-26T09:47:52.523Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T09:47:52.527Z] ERROR: OCR Processing Error for file history-of-mathematics-at-stanford.pdf: Unsupported file type: 
+[2024-11-26T09:47:52.528Z] ERROR: Full error stack: Error: Unsupported file type: 
+    at OCRProcessor.extractTextFromFile (D:\GitHub\Google-Vision-OCR\webapp\server.js:46:23)
+    at D:\GitHub\Google-Vision-OCR\webapp\server.js:214:50
+    at Layer.handle [as handle_request] (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:531:35)
+    at finish (node:internal/streams/writable:946:10)
+[2024-11-26T14:47:31.312Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:11:12.459Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:11:41.467Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T18:11:41.471Z] ERROR: OCR Processing Error for file sampleTaskA-recGen&Solver-checkered2.png: Unsupported file type: 
+[2024-11-26T18:11:41.473Z] ERROR: Full error stack: Error: Unsupported file type: 
+    at OCRProcessor.extractTextFromFile (D:\GitHub\Google-Vision-OCR\webapp\server.js:46:23)
+    at D:\GitHub\Google-Vision-OCR\webapp\server.js:214:50
+    at Layer.handle [as handle_request] (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:531:35)
+    at finish (node:internal/streams/writable:946:10)
+[2024-11-26T18:11:59.228Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T18:11:59.229Z] ERROR: OCR Processing Error for file document_small_small.pdf: Unsupported file type: 
+[2024-11-26T18:11:59.231Z] ERROR: Full error stack: Error: Unsupported file type: 
+    at OCRProcessor.extractTextFromFile (D:\GitHub\Google-Vision-OCR\webapp\server.js:46:23)
+    at D:\GitHub\Google-Vision-OCR\webapp\server.js:214:50
+    at Layer.handle [as handle_request] (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\GitHub\Google-Vision-OCR\webapp\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\GitHub\Google-Vision-OCR\webapp\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:531:35)
+    at finish (node:internal/streams/writable:946:10)
+[2024-11-26T18:14:35.941Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:14:47.479Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T18:14:47.488Z] ERROR: OCR Processing Error for file document_small_small.pdf: Unsupported file type: 
+[2024-11-26T18:14:47.489Z] ERROR: Full error details: {"stack":"Error: Unsupported file type: \n    at OCRProcessor.extractTextFromFile (D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:46:23)\n    at D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:214:50\n    at Layer.handle [as handle_request] (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at done (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\lib\\make-middleware.js:155:11\n    at WriteStream.<anonymous> (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:531:35)\n    at finish (node:internal/streams/writable:946:10)","message":"Unsupported file type: "}
+[2024-11-26T18:15:18.491Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T18:15:18.493Z] ERROR: OCR Processing Error for file R.jpeg: Unsupported file type: 
+[2024-11-26T18:15:18.494Z] ERROR: Full error details: {"stack":"Error: Unsupported file type: \n    at OCRProcessor.extractTextFromFile (D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:46:23)\n    at D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:214:50\n    at Layer.handle [as handle_request] (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at done (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\lib\\make-middleware.js:155:11\n    at WriteStream.<anonymous> (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:531:35)\n    at finish (node:internal/streams/writable:946:10)","message":"Unsupported file type: "}
+[2024-11-26T18:16:06.147Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:16:19.513Z] ERROR: OCR Processing Error: Unsupported file type: 
+[2024-11-26T18:16:19.518Z] ERROR: OCR Processing Error for file document_small_small.pdf: Unsupported file type: 
+[2024-11-26T18:16:19.521Z] ERROR: Full error details: {"stack":"Error: Unsupported file type: \n    at OCRProcessor.extractTextFromFile (D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:47:23)\n    at D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:215:50\n    at Layer.handle [as handle_request] (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at done (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\lib\\make-middleware.js:155:11\n    at WriteStream.<anonymous> (D:\\GitHub\\Google-Vision-OCR\\webapp\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:531:35)\n    at finish (node:internal/streams/writable:946:10)","message":"Unsupported file type: "}
+[2024-11-26T18:17:11.465Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:17:14.262Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:17:44.384Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:18:06.642Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:18:22.143Z] INFO: Uploaded file: document_small_small.pdf, Extension: .pdf
+[2024-11-26T18:18:22.504Z] INFO: Full file path: uploads\63dfe080a4e8747e29d756c12e7947c4
+[2024-11-26T18:18:22.509Z] INFO: File size: 957635 bytes
+[2024-11-26T18:18:22.510Z] INFO: Detected file extension: ""
+[2024-11-26T18:18:22.511Z] INFO: Attempting to process file with extension: 
+[2024-11-26T18:18:22.511Z] INFO: Full file path being processed: uploads\63dfe080a4e8747e29d756c12e7947c4
+[2024-11-26T18:18:22.512Z] ERROR: Detailed OCR Processing Error: Unsupported file type: "" for file: 63dfe080a4e8747e29d756c12e7947c4
+[2024-11-26T18:18:22.513Z] ERROR: Full error details: {"stack":"Error: Unsupported file type: \"\" for file: 63dfe080a4e8747e29d756c12e7947c4\n    at OCRProcessor.extractTextFromFile (D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:63:23)\n    at async D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:250:31","message":"Unsupported file type: \"\" for file: 63dfe080a4e8747e29d756c12e7947c4"}
+[2024-11-26T18:18:22.515Z] ERROR: OCR Processing Error for file document_small_small.pdf: Unsupported file type: "" for file: 63dfe080a4e8747e29d756c12e7947c4
+[2024-11-26T18:19:19.366Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:19:41.551Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:19:48.812Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:19:49.165Z] INFO: Full file path: uploads\file-1732645188813-1252537.pdf
+[2024-11-26T18:19:49.170Z] INFO: File size: 957635 bytes
+[2024-11-26T18:19:49.171Z] INFO: Original filename: file-1732645188813-1252537.pdf
+[2024-11-26T18:19:49.172Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:19:49.173Z] INFO: Converting PDF: uploads\file-1732645188813-1252537.pdf
+[2024-11-26T18:19:49.302Z] INFO: Processing page 1
+[2024-11-26T18:19:49.303Z] ERROR: Detailed OCR Processing Error: pdfDoc.saveAsImage is not a function
+[2024-11-26T18:19:49.305Z] ERROR: Full error details: {"stack":"TypeError: pdfDoc.saveAsImage is not a function\n    at OCRProcessor.processPDF (D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:95:43)\n    at async OCRProcessor.extractTextFromFile (D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:57:24)\n    at async D:\\GitHub\\Google-Vision-OCR\\webapp\\server.js:268:31","message":"pdfDoc.saveAsImage is not a function"}
+[2024-11-26T18:19:49.307Z] ERROR: OCR Processing Error for file document_small_small.pdf: pdfDoc.saveAsImage is not a function
+[2024-11-26T18:21:08.811Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:21:13.821Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:22:20.828Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:22:34.696Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:22:35.060Z] INFO: Full file path: uploads\file-1732645354697-82218169.pdf
+[2024-11-26T18:22:35.067Z] INFO: File size: 957635 bytes
+[2024-11-26T18:22:35.068Z] INFO: Original filename: file-1732645354697-82218169.pdf
+[2024-11-26T18:22:35.069Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:22:35.070Z] INFO: Converting PDF: uploads\file-1732645354697-82218169.pdf
+[2024-11-26T18:22:50.008Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:22:50.010Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:22:51.287Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:22:51.288Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:22:52.060Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:22:52.061Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:22:53.022Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:22:53.023Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T18:22:53.871Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T18:25:09.743Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:27:09.009Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:28:57.988Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:29:28.336Z] ERROR: No file uploaded in /upload route
+[2024-11-26T18:29:32.158Z] ERROR: No file uploaded in /upload route
+[2024-11-26T18:29:42.361Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:29:42.772Z] INFO: Full file path: uploads\file-1732645782363-913735635.pdf
+[2024-11-26T18:29:42.778Z] INFO: File size: 957635 bytes
+[2024-11-26T18:29:42.779Z] INFO: Original filename: file-1732645782363-913735635.pdf
+[2024-11-26T18:29:42.781Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:29:42.782Z] INFO: Converting PDF: uploads\file-1732645782363-913735635.pdf
+[2024-11-26T18:29:56.787Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:29:56.788Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:29:58.057Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:29:58.058Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:29:58.860Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:29:58.861Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:29:59.771Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:29:59.772Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T18:30:00.667Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T18:30:06.266Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:30:06.316Z] INFO: Full file path: uploads\file-1732645806267-234053774.pdf
+[2024-11-26T18:30:06.318Z] INFO: File size: 957635 bytes
+[2024-11-26T18:30:06.319Z] INFO: Original filename: file-1732645806267-234053774.pdf
+[2024-11-26T18:30:06.319Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:30:06.320Z] INFO: Converting PDF: uploads\file-1732645806267-234053774.pdf
+[2024-11-26T18:30:20.100Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:30:20.101Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:30:20.956Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:30:20.956Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:30:21.698Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:30:21.698Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:30:22.557Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:30:22.557Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T18:34:44.742Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:36:42.534Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:36:55.867Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:36:56.245Z] INFO: Full file path: uploads\file-1732646215868-92598978.pdf
+[2024-11-26T18:36:56.248Z] INFO: File size: 957635 bytes
+[2024-11-26T18:36:56.249Z] INFO: Original filename: file-1732646215868-92598978.pdf
+[2024-11-26T18:36:56.250Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:36:56.251Z] INFO: Converting PDF: uploads\file-1732646215868-92598978.pdf
+[2024-11-26T18:37:10.226Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:37:10.227Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:37:11.497Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:37:11.498Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:37:12.426Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:37:12.427Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:37:13.252Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:37:13.252Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T18:37:14.090Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T18:37:25.108Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:37:25.127Z] INFO: Chunk Size: 500
+[2024-11-26T18:37:25.127Z] INFO: Chunk Overlap: 100
+[2024-11-26T18:37:25.127Z] INFO: Separators: 
+[2024-11-26T18:37:25.156Z] INFO: Full file path: uploads\file-1732646245109-71995126.pdf
+[2024-11-26T18:37:25.158Z] INFO: File size: 957635 bytes
+[2024-11-26T18:37:25.160Z] INFO: Original filename: file-1732646245109-71995126.pdf
+[2024-11-26T18:37:25.160Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:37:25.161Z] INFO: Converting PDF: uploads\file-1732646245109-71995126.pdf
+[2024-11-26T18:37:38.936Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:37:38.937Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:37:39.938Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:37:39.939Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:37:40.725Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:37:40.726Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:37:41.605Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:37:41.606Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T18:44:48.487Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:44:52.302Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:45:47.775Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:46:03.697Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:46:04.096Z] INFO: Full file path: uploads\file-1732646763699-455008114.pdf
+[2024-11-26T18:46:04.101Z] INFO: File size: 957635 bytes
+[2024-11-26T18:46:04.102Z] INFO: Original filename: file-1732646763699-455008114.pdf
+[2024-11-26T18:46:04.104Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:46:04.105Z] INFO: Converting PDF: uploads\file-1732646763699-455008114.pdf
+[2024-11-26T18:46:18.033Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:46:18.034Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:46:19.365Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:46:19.366Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:46:21.164Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:46:21.165Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:46:22.207Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:46:22.208Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T18:46:23.129Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T18:46:42.670Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:46:42.722Z] INFO: Full file path: uploads\file-1732646802671-636380530.pdf
+[2024-11-26T18:46:42.726Z] INFO: File size: 957635 bytes
+[2024-11-26T18:46:42.727Z] INFO: Original filename: file-1732646802671-636380530.pdf
+[2024-11-26T18:46:42.727Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:46:42.728Z] INFO: Converting PDF: uploads\file-1732646802671-636380530.pdf
+[2024-11-26T18:46:56.519Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:46:56.520Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:46:57.628Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:46:57.628Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:46:58.403Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:46:58.404Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:46:59.369Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:46:59.370Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T18:47:00.235Z] ERROR: API Upload Error: fs.createReadStream is not a function
+[2024-11-26T18:47:00.236Z] ERROR: Upload Error: fs.createReadStream is not a function
+[2024-11-26T18:48:06.052Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:48:10.330Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:48:10.682Z] INFO: Full file path: uploads\file-1732646890332-541163354.pdf
+[2024-11-26T18:48:10.687Z] INFO: File size: 957635 bytes
+[2024-11-26T18:48:10.688Z] INFO: Original filename: file-1732646890332-541163354.pdf
+[2024-11-26T18:48:10.689Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:48:10.690Z] INFO: Converting PDF: uploads\file-1732646890332-541163354.pdf
+[2024-11-26T18:48:24.767Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:48:24.768Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:48:26.042Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:48:26.044Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:48:26.994Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:48:26.994Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:48:27.910Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:48:27.911Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T18:48:28.790Z] ERROR: API Upload Error: fs.readFileSync is not a function
+[2024-11-26T18:48:28.791Z] ERROR: Upload Error: fs.readFileSync is not a function
+[2024-11-26T18:50:04.686Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:50:05.211Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:50:05.708Z] INFO: Full file path: uploads\file-1732647005212-876753207.pdf
+[2024-11-26T18:50:05.738Z] INFO: File size: 957635 bytes
+[2024-11-26T18:50:05.768Z] INFO: Original filename: file-1732647005212-876753207.pdf
+[2024-11-26T18:50:05.778Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:50:05.780Z] INFO: Converting PDF: uploads\file-1732647005212-876753207.pdf
+[2024-11-26T18:50:20.240Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:50:20.241Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:50:21.472Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:50:21.473Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:50:22.555Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:50:22.556Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:50:23.478Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:50:23.479Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T18:50:24.380Z] ERROR: API Upload Error: source.on is not a function
+[2024-11-26T18:50:24.381Z] ERROR: Upload Error: source.on is not a function
+[2024-11-26T18:52:34.691Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:52:37.122Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:52:37.488Z] INFO: Full file path: uploads\file-1732647157123-396106447.pdf
+[2024-11-26T18:52:37.494Z] INFO: File size: 957635 bytes
+[2024-11-26T18:52:37.494Z] INFO: Original filename: file-1732647157123-396106447.pdf
+[2024-11-26T18:52:37.495Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:52:37.496Z] INFO: Converting PDF: uploads\file-1732647157123-396106447.pdf
+[2024-11-26T18:52:51.514Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:52:51.515Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:52:53.030Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:52:53.031Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:52:53.853Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:52:53.854Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:52:54.870Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:52:54.871Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T18:52:55.920Z] ERROR: API Upload Error: source.on is not a function
+[2024-11-26T18:52:55.921Z] ERROR: Upload Error: source.on is not a function
+[2024-11-26T18:53:42.613Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:58:03.214Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T18:58:58.131Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T18:58:58.162Z] INFO: Chunk Size: 500
+[2024-11-26T18:58:58.164Z] INFO: Chunk Overlap: 100
+[2024-11-26T18:58:58.166Z] INFO: Separators: 
+[2024-11-26T18:58:58.565Z] INFO: Full file path: uploads\file-1732647538133-851268487.pdf
+[2024-11-26T18:58:58.569Z] INFO: File size: 957635 bytes
+[2024-11-26T18:58:58.570Z] INFO: Original filename: file-1732647538133-851268487.pdf
+[2024-11-26T18:58:58.571Z] INFO: Original file extension: ".pdf"
+[2024-11-26T18:58:58.572Z] INFO: Converting PDF: uploads\file-1732647538133-851268487.pdf
+[2024-11-26T18:59:12.697Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T18:59:12.698Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T18:59:14.291Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T18:59:14.293Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T18:59:15.254Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T18:59:15.255Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T18:59:16.181Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T18:59:16.182Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:04:57.230Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T19:05:23.978Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T19:05:41.499Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T19:05:41.884Z] INFO: Full file path: uploads\file-1732647941501-116113384.pdf
+[2024-11-26T19:05:41.887Z] INFO: File size: 957635 bytes
+[2024-11-26T19:05:41.888Z] INFO: Original filename: file-1732647941501-116113384.pdf
+[2024-11-26T19:05:41.889Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:05:41.890Z] INFO: Converting PDF: uploads\file-1732647941501-116113384.pdf
+[2024-11-26T19:05:55.814Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:05:55.816Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:05:57.347Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:05:57.348Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:05:58.077Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:05:58.078Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:05:59.343Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:05:59.344Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:06:00.401Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T19:10:15.233Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T19:11:09.682Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T19:11:10.086Z] INFO: Full file path: uploads\file-1732648269683-463492275.pdf
+[2024-11-26T19:11:10.091Z] INFO: File size: 957635 bytes
+[2024-11-26T19:11:10.091Z] INFO: Original filename: file-1732648269683-463492275.pdf
+[2024-11-26T19:11:10.093Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:11:10.094Z] INFO: Converting PDF: uploads\file-1732648269683-463492275.pdf
+[2024-11-26T19:11:24.240Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:11:24.241Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:11:26.162Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:11:26.163Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:11:27.519Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:11:27.520Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:11:28.571Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:11:28.571Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:11:29.719Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T19:15:30.007Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T19:15:30.057Z] INFO: Full file path: uploads\file-1732648530008-114487192.pdf
+[2024-11-26T19:15:30.060Z] INFO: File size: 957635 bytes
+[2024-11-26T19:15:30.061Z] INFO: Original filename: file-1732648530008-114487192.pdf
+[2024-11-26T19:15:30.062Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:15:30.062Z] INFO: Converting PDF: uploads\file-1732648530008-114487192.pdf
+[2024-11-26T19:15:43.965Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:15:43.966Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:15:45.127Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:15:45.127Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:15:46.034Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:15:46.035Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:15:46.978Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:15:46.979Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:15:47.942Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T19:18:37.494Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T19:18:37.528Z] INFO: Full file path: uploads\file-1732648717495-546121756.pdf
+[2024-11-26T19:18:37.530Z] INFO: File size: 957635 bytes
+[2024-11-26T19:18:37.530Z] INFO: Original filename: file-1732648717495-546121756.pdf
+[2024-11-26T19:18:37.532Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:18:37.533Z] INFO: Converting PDF: uploads\file-1732648717495-546121756.pdf
+[2024-11-26T19:18:49.408Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:18:49.408Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:18:50.753Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:18:50.753Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:18:51.703Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:18:51.704Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:18:52.689Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:18:52.689Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:18:53.327Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T19:26:34.409Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T19:26:34.452Z] INFO: Full file path: uploads\file-1732649194411-783769691.pdf
+[2024-11-26T19:26:34.454Z] INFO: File size: 957635 bytes
+[2024-11-26T19:26:34.455Z] INFO: Original filename: file-1732649194411-783769691.pdf
+[2024-11-26T19:26:34.455Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:26:34.457Z] INFO: Converting PDF: uploads\file-1732649194411-783769691.pdf
+[2024-11-26T19:26:46.235Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:26:46.235Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:26:47.581Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:26:47.582Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:26:48.571Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:26:48.572Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:26:49.517Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:26:49.518Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:26:50.463Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T19:28:37.144Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T19:28:50.191Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T19:28:50.499Z] INFO: Full file path: uploads\file-1732649330192-665441000.pdf
+[2024-11-26T19:28:50.502Z] INFO: File size: 957635 bytes
+[2024-11-26T19:28:50.503Z] INFO: Original filename: file-1732649330192-665441000.pdf
+[2024-11-26T19:28:50.503Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:28:50.504Z] INFO: Converting PDF: uploads\file-1732649330192-665441000.pdf
+[2024-11-26T19:29:02.567Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:29:02.568Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:29:03.815Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:29:03.817Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:29:04.682Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:29:04.682Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:29:05.731Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:29:05.732Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:29:06.660Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T19:30:47.128Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T19:31:00.260Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T19:31:00.591Z] INFO: Full file path: uploads\file-1732649460261-719825887.pdf
+[2024-11-26T19:31:00.595Z] INFO: File size: 957635 bytes
+[2024-11-26T19:31:00.596Z] INFO: Original filename: file-1732649460261-719825887.pdf
+[2024-11-26T19:31:00.597Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:31:00.597Z] INFO: Converting PDF: uploads\file-1732649460261-719825887.pdf
+[2024-11-26T19:31:12.807Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:31:12.808Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:31:13.993Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:31:13.994Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:31:14.864Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:31:14.864Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:31:15.769Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:31:15.770Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:31:16.658Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T19:32:02.228Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T19:32:38.718Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T19:32:39.034Z] INFO: Full file path: uploads\file-1732649558719-790582924.pdf
+[2024-11-26T19:32:39.038Z] INFO: File size: 957635 bytes
+[2024-11-26T19:32:39.039Z] INFO: Original filename: file-1732649558719-790582924.pdf
+[2024-11-26T19:32:39.040Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:32:39.041Z] INFO: Converting PDF: uploads\file-1732649558719-790582924.pdf
+[2024-11-26T19:32:50.788Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:32:50.789Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:32:52.244Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:32:52.245Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:32:53.113Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:32:53.113Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:32:54.138Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:32:54.139Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:32:55.076Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T19:50:04.991Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T19:50:05.103Z] INFO: Full file path: uploads\file-1732650605002-558947886.pdf
+[2024-11-26T19:50:05.106Z] INFO: File size: 957635 bytes
+[2024-11-26T19:50:05.108Z] INFO: Original filename: file-1732650605002-558947886.pdf
+[2024-11-26T19:50:05.108Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:50:05.109Z] INFO: Converting PDF: uploads\file-1732650605002-558947886.pdf
+[2024-11-26T19:50:17.376Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:50:17.377Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:50:18.617Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:50:18.618Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:50:19.568Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:50:19.569Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:50:20.508Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:50:20.508Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:50:21.318Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T19:52:10.612Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T19:53:46.550Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T19:54:04.279Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T19:54:04.592Z] INFO: Full file path: uploads\file-1732650844280-755360895.pdf
+[2024-11-26T19:54:04.596Z] INFO: File size: 263732 bytes
+[2024-11-26T19:54:04.597Z] INFO: Original filename: file-1732650844280-755360895.pdf
+[2024-11-26T19:54:04.598Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:54:04.598Z] INFO: Converting PDF: uploads\file-1732650844280-755360895.pdf
+[2024-11-26T19:54:06.578Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:54:06.579Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:54:07.695Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:54:07.696Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:54:08.421Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:54:08.422Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:54:08.856Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:54:08.856Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:54:09.614Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T19:54:09.615Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T19:54:10.104Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T19:57:34.219Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T19:57:46.995Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T19:57:47.324Z] INFO: Full file path: uploads\file-1732651066997-522237384.pdf
+[2024-11-26T19:57:47.330Z] INFO: File size: 957635 bytes
+[2024-11-26T19:57:47.331Z] INFO: Original filename: file-1732651066997-522237384.pdf
+[2024-11-26T19:57:47.331Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:57:47.332Z] INFO: Converting PDF: uploads\file-1732651066997-522237384.pdf
+[2024-11-26T19:57:59.111Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:57:59.112Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:58:00.378Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:58:00.379Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:58:01.227Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:58:01.227Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:58:02.188Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:58:02.189Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:58:03.157Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T19:59:41.307Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T19:59:52.924Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T19:59:53.262Z] INFO: Full file path: uploads\file-1732651192925-624880173.pdf
+[2024-11-26T19:59:53.266Z] INFO: File size: 263732 bytes
+[2024-11-26T19:59:53.267Z] INFO: Original filename: file-1732651192925-624880173.pdf
+[2024-11-26T19:59:53.268Z] INFO: Original file extension: ".pdf"
+[2024-11-26T19:59:53.269Z] INFO: Converting PDF: uploads\file-1732651192925-624880173.pdf
+[2024-11-26T19:59:54.972Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T19:59:54.973Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T19:59:56.040Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T19:59:56.041Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T19:59:56.740Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T19:59:56.741Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T19:59:57.148Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T19:59:57.148Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T19:59:57.828Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T19:59:57.829Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T19:59:58.453Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T20:01:24.307Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:05:32.927Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:05:43.342Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T20:05:43.670Z] INFO: Full file path: uploads\file-1732651543343-140843553.pdf
+[2024-11-26T20:05:43.674Z] INFO: File size: 957635 bytes
+[2024-11-26T20:05:43.675Z] INFO: Original filename: file-1732651543343-140843553.pdf
+[2024-11-26T20:05:43.676Z] INFO: Original file extension: ".pdf"
+[2024-11-26T20:05:43.677Z] INFO: Converting PDF: uploads\file-1732651543343-140843553.pdf
+[2024-11-26T20:05:55.720Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T20:05:55.721Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T20:05:57.101Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T20:05:57.101Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T20:05:58.051Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T20:05:58.052Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T20:05:58.965Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T20:05:58.965Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T20:05:59.855Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T20:09:51.481Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:10:17.901Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T20:10:18.222Z] INFO: Full file path: uploads\file-1732651817902-812073016.pdf
+[2024-11-26T20:10:18.227Z] INFO: File size: 957635 bytes
+[2024-11-26T20:10:18.228Z] INFO: Original filename: file-1732651817902-812073016.pdf
+[2024-11-26T20:10:18.229Z] INFO: Original file extension: ".pdf"
+[2024-11-26T20:10:18.230Z] INFO: Converting PDF: uploads\file-1732651817902-812073016.pdf
+[2024-11-26T20:10:30.099Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T20:10:30.100Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T20:10:31.323Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T20:10:31.324Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T20:10:32.196Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T20:10:32.197Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T20:10:33.289Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T20:10:33.289Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T20:10:34.246Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T20:11:50.901Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:12:21.546Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:12:32.998Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:12:43.982Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:13:28.971Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:14:42.628Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T20:14:42.949Z] INFO: Full file path: uploads\file-1732652082629-216192362.pdf
+[2024-11-26T20:14:42.954Z] INFO: File size: 263732 bytes
+[2024-11-26T20:14:42.955Z] INFO: Original filename: file-1732652082629-216192362.pdf
+[2024-11-26T20:14:42.956Z] INFO: Original file extension: ".pdf"
+[2024-11-26T20:14:42.957Z] INFO: Converting PDF: uploads\file-1732652082629-216192362.pdf
+[2024-11-26T20:14:44.722Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T20:14:44.723Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T20:14:46.084Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T20:14:46.085Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T20:14:46.954Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T20:14:46.955Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T20:14:47.553Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T20:14:47.553Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T20:14:48.305Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T20:14:48.306Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T20:14:49.012Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T20:15:56.398Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:16:02.280Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T20:16:02.582Z] INFO: Full file path: uploads\file-1732652162281-154345491.pdf
+[2024-11-26T20:16:02.587Z] INFO: File size: 263732 bytes
+[2024-11-26T20:16:02.588Z] INFO: Original filename: file-1732652162281-154345491.pdf
+[2024-11-26T20:16:02.589Z] INFO: Original file extension: ".pdf"
+[2024-11-26T20:16:02.591Z] INFO: Converting PDF: uploads\file-1732652162281-154345491.pdf
+[2024-11-26T20:16:04.408Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T20:16:04.409Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T20:16:05.537Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T20:16:05.539Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T20:16:06.747Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T20:16:06.748Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T20:16:07.212Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T20:16:07.213Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T20:16:07.963Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T20:16:07.964Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T20:16:08.494Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T20:18:38.981Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:19:40.308Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:19:49.031Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T20:19:49.372Z] INFO: Full file path: uploads\file-1732652389033-980413904.pdf
+[2024-11-26T20:19:49.379Z] INFO: File size: 263732 bytes
+[2024-11-26T20:19:49.381Z] INFO: Original filename: file-1732652389033-980413904.pdf
+[2024-11-26T20:19:49.382Z] INFO: Original file extension: ".pdf"
+[2024-11-26T20:19:49.383Z] INFO: Converting PDF: uploads\file-1732652389033-980413904.pdf
+[2024-11-26T20:19:51.204Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T20:19:51.205Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T20:19:52.460Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T20:19:52.461Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T20:19:53.160Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T20:19:53.161Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T20:19:53.589Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T20:19:53.589Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T20:19:54.340Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T20:19:54.340Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T20:19:54.848Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T20:19:56.388Z] INFO: Uploaded file: extracted_text.txt, Original Extension: .txt
+[2024-11-26T20:19:56.388Z] ERROR: Rejected file type: .txt
+[2024-11-26T20:20:55.315Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:23:11.637Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:23:18.335Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:23:24.573Z] INFO: Uploaded file: extracted_text.txt, Original Extension: .txt
+[2024-11-26T20:23:24.574Z] ERROR: Rejected file type: .txt
+[2024-11-26T20:23:42.330Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T20:23:42.661Z] INFO: Full file path: uploads\file-1732652622331-381215926.pdf
+[2024-11-26T20:23:42.665Z] INFO: File size: 957635 bytes
+[2024-11-26T20:23:42.666Z] INFO: Original filename: file-1732652622331-381215926.pdf
+[2024-11-26T20:23:42.667Z] INFO: Original file extension: ".pdf"
+[2024-11-26T20:23:42.667Z] INFO: Converting PDF: uploads\file-1732652622331-381215926.pdf
+[2024-11-26T20:23:54.699Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T20:23:54.700Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T20:23:55.838Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T20:23:55.839Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T20:23:56.789Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T20:23:56.790Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T20:23:57.759Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T20:23:57.760Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T20:23:58.484Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T20:24:00.951Z] INFO: Uploaded file: extracted_text.txt, Original Extension: .txt
+[2024-11-26T20:24:00.951Z] ERROR: Rejected file type: .txt
+[2024-11-26T20:24:16.891Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:24:24.737Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:24:27.684Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:24:29.249Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:24:32.794Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:24:39.637Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:24:42.884Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:24:44.537Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:25:35.759Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:25:43.208Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-26T20:25:43.526Z] INFO: Full file path: uploads\file-1732652743209-479497334.pdf
+[2024-11-26T20:25:43.530Z] INFO: File size: 957635 bytes
+[2024-11-26T20:25:43.531Z] INFO: Original filename: file-1732652743209-479497334.pdf
+[2024-11-26T20:25:43.532Z] INFO: Original file extension: ".pdf"
+[2024-11-26T20:25:43.533Z] INFO: Converting PDF: uploads\file-1732652743209-479497334.pdf
+[2024-11-26T20:25:55.823Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T20:25:55.824Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T20:25:57.052Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T20:25:57.053Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T20:25:57.936Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T20:25:57.937Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T20:25:58.823Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T20:25:58.823Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T20:25:59.637Z] INFO: OCR completed for file: document_small_small.pdf
+[2024-11-26T20:26:17.576Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:26:30.939Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:27:39.346Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:30:40.986Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:31:10.861Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T20:31:11.181Z] INFO: Full file path: uploads\file-1732653070862-861988845.pdf
+[2024-11-26T20:31:11.185Z] INFO: File size: 263732 bytes
+[2024-11-26T20:31:11.186Z] INFO: Original filename: file-1732653070862-861988845.pdf
+[2024-11-26T20:31:11.186Z] INFO: Original file extension: ".pdf"
+[2024-11-26T20:31:11.187Z] INFO: Converting PDF: uploads\file-1732653070862-861988845.pdf
+[2024-11-26T20:31:13.022Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T20:31:13.023Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T20:31:14.289Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T20:31:14.293Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T20:31:15.012Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T20:31:15.013Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T20:31:15.449Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T20:31:15.449Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T20:31:16.224Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T20:31:16.225Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T20:31:16.844Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T20:39:27.934Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:39:52.709Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T20:39:53.067Z] INFO: Full file path: uploads\file-1732653592711-493427131.pdf
+[2024-11-26T20:39:53.070Z] INFO: File size: 263732 bytes
+[2024-11-26T20:39:53.071Z] INFO: Original filename: file-1732653592711-493427131.pdf
+[2024-11-26T20:39:53.072Z] INFO: Original file extension: ".pdf"
+[2024-11-26T20:39:53.073Z] INFO: Converting PDF: uploads\file-1732653592711-493427131.pdf
+[2024-11-26T20:39:55.007Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T20:39:55.008Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T20:39:56.278Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T20:39:56.279Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T20:39:56.969Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T20:39:56.970Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T20:39:57.352Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T20:39:57.353Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T20:39:58.091Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T20:39:58.092Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T20:39:58.579Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T20:42:46.114Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T20:42:53.960Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T20:42:54.265Z] INFO: Full file path: uploads\file-1732653773962-970493572.pdf
+[2024-11-26T20:42:54.269Z] INFO: File size: 263732 bytes
+[2024-11-26T20:42:54.273Z] INFO: Original filename: file-1732653773962-970493572.pdf
+[2024-11-26T20:42:54.273Z] INFO: Original file extension: ".pdf"
+[2024-11-26T20:42:54.275Z] INFO: Converting PDF: uploads\file-1732653773962-970493572.pdf
+[2024-11-26T20:42:55.937Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T20:42:55.938Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T20:42:57.108Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T20:42:57.109Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T20:42:57.799Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T20:42:57.800Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T20:42:58.221Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T20:42:58.222Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T20:42:59.087Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T20:42:59.087Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T20:42:59.604Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T20:59:17.186Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T21:18:17.432Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T21:18:17.791Z] INFO: Full file path: uploads\file-1732655897440-583285690.pdf
+[2024-11-26T21:18:17.797Z] INFO: File size: 263732 bytes
+[2024-11-26T21:18:17.798Z] INFO: Original filename: file-1732655897440-583285690.pdf
+[2024-11-26T21:18:17.799Z] INFO: Original file extension: ".pdf"
+[2024-11-26T21:18:17.799Z] INFO: Converting PDF: uploads\file-1732655897440-583285690.pdf
+[2024-11-26T21:18:19.603Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T21:18:19.604Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T21:18:20.867Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T21:18:20.868Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T21:18:21.563Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T21:18:21.564Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T21:18:21.949Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T21:18:21.950Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T21:18:22.673Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T21:18:22.674Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T21:18:23.139Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T22:07:10.632Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T22:08:02.246Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T22:09:45.444Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-26T22:20:13.562Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T22:20:14.046Z] INFO: Full file path: uploads\file-1732659613572-402255467.pdf
+[2024-11-26T22:20:14.052Z] INFO: File size: 263732 bytes
+[2024-11-26T22:20:14.053Z] INFO: Original filename: file-1732659613572-402255467.pdf
+[2024-11-26T22:20:14.054Z] INFO: Original file extension: ".pdf"
+[2024-11-26T22:20:14.054Z] INFO: Converting PDF: uploads\file-1732659613572-402255467.pdf
+[2024-11-26T22:20:15.907Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T22:20:15.907Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T22:20:17.188Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T22:20:17.189Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T22:20:17.884Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T22:20:17.885Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T22:20:18.289Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T22:20:18.290Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T22:20:19.022Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T22:20:19.023Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T22:20:19.500Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T22:22:52.895Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T22:22:52.927Z] INFO: Full file path: uploads\file-1732659772897-669387783.pdf
+[2024-11-26T22:22:52.929Z] INFO: File size: 263732 bytes
+[2024-11-26T22:22:52.931Z] INFO: Original filename: file-1732659772897-669387783.pdf
+[2024-11-26T22:22:52.934Z] INFO: Original file extension: ".pdf"
+[2024-11-26T22:22:52.935Z] INFO: Converting PDF: uploads\file-1732659772897-669387783.pdf
+[2024-11-26T22:22:54.617Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T22:22:54.617Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T22:22:55.620Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T22:22:55.621Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T22:22:56.274Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T22:22:56.275Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T22:22:56.723Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T22:22:56.724Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T22:22:57.381Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T22:22:57.382Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T22:22:57.858Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T22:24:44.986Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T22:24:45.005Z] INFO: Full file path: uploads\file-1732659884987-313351105.pdf
+[2024-11-26T22:24:45.011Z] INFO: File size: 263732 bytes
+[2024-11-26T22:24:45.012Z] INFO: Original filename: file-1732659884987-313351105.pdf
+[2024-11-26T22:24:45.012Z] INFO: Original file extension: ".pdf"
+[2024-11-26T22:24:45.013Z] INFO: Converting PDF: uploads\file-1732659884987-313351105.pdf
+[2024-11-26T22:24:46.751Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T22:24:46.752Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T22:24:47.806Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T22:24:47.807Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T22:24:48.563Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T22:24:48.564Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T22:24:48.972Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T22:24:48.973Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T22:24:49.660Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T22:24:49.661Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T22:24:50.147Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T22:30:03.646Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T22:30:03.673Z] INFO: Full file path: uploads\file-1732660203647-465165030.pdf
+[2024-11-26T22:30:03.680Z] INFO: File size: 263732 bytes
+[2024-11-26T22:30:03.680Z] INFO: Original filename: file-1732660203647-465165030.pdf
+[2024-11-26T22:30:03.681Z] INFO: Original file extension: ".pdf"
+[2024-11-26T22:30:03.681Z] INFO: Converting PDF: uploads\file-1732660203647-465165030.pdf
+[2024-11-26T22:30:05.383Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T22:30:05.384Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T22:30:06.546Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T22:30:06.547Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T22:30:07.196Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T22:30:07.196Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T22:30:07.603Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T22:30:07.604Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T22:30:08.319Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T22:30:08.319Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T22:30:08.819Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T22:38:33.341Z] INFO: Uploaded file: AI-Assignment 1.pdf, Original Extension: .pdf
+[2024-11-26T22:38:33.366Z] INFO: Full file path: uploads\file-1732660713343-985985688.pdf
+[2024-11-26T22:38:33.368Z] INFO: File size: 263732 bytes
+[2024-11-26T22:38:33.369Z] INFO: Original filename: file-1732660713343-985985688.pdf
+[2024-11-26T22:38:33.369Z] INFO: Original file extension: ".pdf"
+[2024-11-26T22:38:33.370Z] INFO: Converting PDF: uploads\file-1732660713343-985985688.pdf
+[2024-11-26T22:38:35.289Z] INFO: Processing page 1: temp_images\page_-1.png
+[2024-11-26T22:38:35.317Z] INFO: Processing image: temp_images\page_-1.png
+[2024-11-26T22:38:39.355Z] INFO: Processing page 2: temp_images\page_-2.png
+[2024-11-26T22:38:39.358Z] INFO: Processing image: temp_images\page_-2.png
+[2024-11-26T22:38:41.170Z] INFO: Processing page 3: temp_images\page_-3.png
+[2024-11-26T22:38:41.171Z] INFO: Processing image: temp_images\page_-3.png
+[2024-11-26T22:38:41.676Z] INFO: Processing page 4: temp_images\page_-4.png
+[2024-11-26T22:38:41.676Z] INFO: Processing image: temp_images\page_-4.png
+[2024-11-26T22:38:42.679Z] INFO: Processing page 5: temp_images\page_-5.png
+[2024-11-26T22:38:42.679Z] INFO: Processing image: temp_images\page_-5.png
+[2024-11-26T22:38:43.447Z] INFO: OCR completed for file: AI-Assignment 1.pdf
+[2024-11-26T22:40:28.878Z] INFO: Server running on http://0.0.0.0:3000
