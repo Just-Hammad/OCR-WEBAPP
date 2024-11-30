@@ -1,4 +1,4 @@
-// server.js
+
 const express = require('express');
 const multer = require('multer');
 const { createLogger, format, transports } = require('winston');
@@ -7,7 +7,8 @@ const vision = require('@google-cloud/vision');
 require('dotenv').config();
 const fs = require('fs').promises;
 const stream = require('stream');
-const poppler = require('pdf-poppler')
+const { exec } = require('child_process');
+const util = require('util');
 
 // Logging Setup
 const logger = createLogger({
@@ -25,80 +26,95 @@ const logger = createLogger({
 });
 
 class OCRProcessor {
-    constructor() {
-        // Initialize Google Cloud Vision client
+    constructor(responseStream) {
         this.visionClient = new vision.ImageAnnotatorClient({
             keyFilename: process.env.GOOGLE_APPLICATION_CREDENTIALS
         });
+        this.execPromise = util.promisify(exec);
+        this.responseStream = responseStream;
+        this.totalPagesProcessed = 0;
+    }
+
+    // Send incremental update to the client
+    sendUpdate(message, isComplete = false, text = null, totalPages = null) {
+        const updatePacket = {
+            message,
+            pageNumber: this.totalPagesProcessed,
+            totalPages: totalPages,
+            isComplete
+        };
+    
+        // If text is large, encode it in base64
+        if (text !== null) {
+            if (text.length > 10000) { // Adjust threshold as needed
+                updatePacket.text = Buffer.from(text).toString('base64');
+                updatePacket.isBase64 = true;
+            } else {
+                updatePacket.text = text;
+            }
+        }
+    
+        // Use a try-catch to handle any potential JSON stringification errors
+        try {
+            const jsonString = JSON.stringify(updatePacket);
+            this.responseStream.write(`data: ${jsonString}\n\n`);
+        } catch (error) {
+            logger.error(`Error stringifying update: ${error.message}`);
+            this.responseStream.write(`data: ${JSON.stringify({
+                message: 'Error processing text',
+                error: error.message,
+                isComplete: true
+            })}\n\n`);
+        }
     }
 
     async extractTextFromFile(filePath) {
-        // Log full details about the file
         logger.info(`Full file path: ${filePath}`);
-        
-        // Use fs to verify file existence and get more details
-        try {
-            const fileStats = await fs.stat(filePath);
-            logger.info(`File size: ${fileStats.size} bytes`);
-        } catch (statError) {
-            logger.error(`Error getting file stats: ${statError.message}`);
-        }
-    
-        // Try to get extension from the original filename
-        const originalFilename = path.basename(filePath);
-        const originalExt = path.extname(originalFilename).toLowerCase();
-        logger.info(`Original filename: ${originalFilename}`);
-        logger.info(`Original file extension: "${originalExt}"`);
-    
+        this.sendUpdate(`Starting OCR processing for file: ${path.basename(filePath)}`);
+
+        const originalExt = path.extname(path.basename(filePath)).toLowerCase();
+
         try {
             if (originalExt === '.pdf') {
                 return await this.processPDF(filePath);
-            } else if (['.jpg', '.jpeg', '.png', '.bmp', '.pdf'].includes(originalExt)) {
+            } else if (['.jpg', '.jpeg', '.png', '.bmp'].includes(originalExt)) {
                 return await this.processImage(filePath);
             } else {
-                // Try to detect file type using file magic numbers
-                const fileBuffer = await fs.readFile(filePath, { length: 4 });
-                const fileSignature = fileBuffer.toString('hex');
-    
-                // PDF file signature
-                if (fileSignature.startsWith('25504446')) {
-                    return await this.processPDF(filePath);
-                }
-    
-                throw new Error(`Unsupported file type: "${originalExt}" for file: ${originalFilename}`);
+                throw new Error(`Unsupported file type: "${originalExt}"`);
             }
         } catch (error) {
+            this.sendUpdate(`OCR Processing Error: ${error.message}`, true);
             logger.error(`Detailed OCR Processing Error: ${error.message}`);
-            logger.error(`Full error details: ${JSON.stringify(error, Object.getOwnPropertyNames(error))}`);
             throw error;
         }
     }
 
     async processPDF(pdfPath) {
         logger.info(`Converting PDF: ${pdfPath}`);
-        
+        this.sendUpdate('Converting PDF to images...');
+    
         const tempDir = './temp_images';
         await fs.mkdir(tempDir, { recursive: true });
+        
+        // Clear previous temporary images
+        await fs.readdir(tempDir)
+            .then(files => Promise.all(files.map(file => fs.unlink(path.join(tempDir, file)))))
+            .catch(err => logger.warn(`Error clearing temp directory: ${err.message}`));
     
         let allText = '';
+        const PAGES_PER_UPDATE = 5;
     
         try {
-            // Get PDF page count
-            const opts = {
-                format: 'png',
-                out_dir: tempDir,
-                out_prefix: 'page_',
-                page: null // convert all pages
-            };
+            // Convert PDF to images using pdftoppm
+            await this.execPromise(`pdftoppm -png ${pdfPath} ${path.join(tempDir, 'page')}`);
     
-            // Convert PDF to images
-            const convertedImages = await poppler.convert(pdfPath, opts);
-            
-            // Process each converted image
             const imageFiles = await fs.readdir(tempDir);
-            const pdfImages = imageFiles.filter(file => 
-                file.startsWith('page_') && path.extname(file) === '.png'
+            const pdfImages = imageFiles.filter(file =>
+                file.startsWith('page-') && path.extname(file) === '.png'
             ).sort();
+    
+            const totalPages = pdfImages.length;
+            this.totalPagesProcessed = 0;
     
             for (const [index, imageName] of pdfImages.entries()) {
                 const imagePath = path.join(tempDir, imageName);
@@ -107,18 +123,27 @@ class OCRProcessor {
                 try {
                     const pageText = await this.processImage(imagePath, index + 1);
                     allText += pageText + '\n\n';
+                    this.totalPagesProcessed++;
+    
+                    // Send incremental text update every 5 pages
+                    if ((index + 1) % PAGES_PER_UPDATE === 0 || index === pdfImages.length - 1) {
+                        this.sendUpdate(`Processed pages up to ${index + 1}`, false, allText, totalPages);
+                    }
     
                     // Clean up individual page image
                     await fs.unlink(imagePath);
                 } catch (pageError) {
                     logger.error(`Error processing page ${index + 1}: ${pageError.message}`);
+                    this.sendUpdate(`Error processing page ${index + 1}: ${pageError.message}`, false, null, totalPages);
                 }
             }
     
+            // Final complete message
+            this.sendUpdate('OCR processing complete', true, allText, totalPages);
             return allText.trim();
         } catch (error) {
             logger.error(`PDF Processing Error: ${error.message}`);
-            logger.error(`Full error details: ${JSON.stringify(error, Object.getOwnPropertyNames(error))}`);
+            this.sendUpdate(`PDF Processing Error: ${error.message}`, true);
             throw error;
         }
     }
@@ -134,42 +159,9 @@ class OCRProcessor {
             return pagePrefix + detectedText;
         } catch (error) {
             logger.error(`Image Processing Error: ${error.message}`);
+            this.sendUpdate(`Image Processing Error: ${error.message}`, true);
             throw error;
         }
-    }
-
-    chunkText(text, options = {}) {
-        const {
-            chunkSize = 500,
-            chunkOverlap = 100,
-            separators = ['\n\n', '. ', '! ', '? ']
-        } = options;
-
-        const chunks = [];
-        let start = 0;
-
-        while (start < text.length) {
-            let end = start + chunkSize;
-            let bestCut = end;
-
-            // Find best cut point
-            for (const sep of separators) {
-                const cutIndex = text.lastIndexOf(sep, end);
-                if (cutIndex !== -1 && cutIndex > start) {
-                    bestCut = cutIndex + sep.length;
-                    break;
-                }
-            }
-
-            // Extract chunk
-            const chunk = text.slice(start, bestCut).trim();
-            chunks.push(chunk);
-
-            // Move start with overlap
-            start = bestCut - chunkOverlap;
-        }
-
-        return chunks;
     }
 }
 
@@ -186,14 +178,14 @@ const storage = multer.diskStorage({
     }
 });
 
-const upload = multer({ 
+const upload = multer({
     storage: storage,
     fileFilter: (req, file, cb) => {
         const allowedTypes = ['.pdf', '.jpg', '.jpeg', '.png', '.bmp'];
         const ext = path.extname(file.originalname).toLowerCase();
-        
+
         logger.info(`Uploaded file: ${file.originalname}, Original Extension: ${ext}`);
-        
+
         if (allowedTypes.includes(ext)) {
             cb(null, true);
         } else {
@@ -210,47 +202,61 @@ app.use(express.static('public'));
 
 //Routes
 app.post('/ocr', upload.single('file'), async (req, res) => {
+    req.setTimeout(10 * 60 * 1000); // 10 minute timeout
+    res.setTimeout(10 * 60 * 1000);
+
+    // Set up Server-Sent Events headers
+    res.writeHead(200, {
+        'Content-Type': 'text/event-stream',
+        'Cache-Control': 'no-cache',
+        'Connection': 'keep-open'
+    });
+
     if (!req.file) {
         logger.error('No file uploaded or file upload failed');
-        return res.status(400).json({
+        res.write(`data: ${JSON.stringify({
             message: 'No file uploaded',
-            details: 'File upload may have failed due to unsupported file type or upload error'
-        });
+            isComplete: true
+        })}\n\n`);
+        res.end();
+        return;
     }
 
     try {
-        const ocrProcessor = new OCRProcessor();
+        const ocrProcessor = new OCRProcessor(res);
         const extractedText = await ocrProcessor.extractTextFromFile(req.file.path);
-        
-        res.type('text/plain');
-        
-        const textStream = new stream.Readable();
-        textStream.push(extractedText);
-        textStream.push(null);
-        textStream.pipe(res);
+
+        // Send final text as a separate event
+        res.write(`data: ${JSON.stringify({
+            message: 'Final Text',
+            text: extractedText,
+            isComplete: true
+        })}\n\n`);
+
+        res.end();
 
         logger.info(`OCR completed for file: ${req.file.originalname}`);
     } catch (error) {
         logger.error(`OCR Processing Error for file ${req.file.originalname}:`, error);
-        
+
         try {
             await fs.unlink(req.file.path);
         } catch (unlinkError) {
             logger.warn(`Could not delete file after error: ${unlinkError.message}`);
         }
 
-        res.status(500).json({
+        res.write(`data: ${JSON.stringify({
             message: 'OCR Processing failed',
             error: error.message,
-            details: JSON.stringify(error, Object.getOwnPropertyNames(error))
-        });
+            isComplete: true
+        })}\n\n`);
+        res.end();
     }
 });
 
 // Server Configuration
 const PORT = process.env.PORT || 3000;
-const HOST = '0.0.0.0';
 
-app.listen(PORT, HOST, () => {
-    logger.info(`Server running on http://${HOST}:${PORT}`);
+app.listen(PORT, () => {
+    logger.info(`Server running on http://${PORT}`);
 });

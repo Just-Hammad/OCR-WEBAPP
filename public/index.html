@@ -1,5 +1,7 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,16 +32,19 @@
             border-color: #3B82F6 !important;
             background-color: rgba(59, 130, 246, 0.1) !important;
         }
+
         .drag-over i {
             color: #3B82F6 !important;
         }
     </style>
 </head>
+
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen flex flex-col">
     <div class="container mx-auto px-4 py-8 flex-grow">
         <!-- Dark Mode Toggle -->
         <div class="flex justify-end mb-4">
-            <button id="darkModeToggle" class="p-2 rounded-full bg-white dark:bg-gray-700 shadow-md hover:shadow-lg transition-all">
+            <button id="darkModeToggle"
+                class="p-2 rounded-full bg-white dark:bg-gray-700 shadow-md hover:shadow-lg transition-all">
                 <i id="darkModeIcon" class="fas fa-moon dark:text-yellow-400 text-gray-700 text-xl"></i>
             </button>
         </div>
@@ -58,15 +63,14 @@
                         <div>
                             <label class="block mb-2">Select Document</label>
                             <div id="dropArea" class="relative">
-                                <input 
-                                    type="file" 
-                                    id="fileInput" 
-                                    class="absolute inset-0 opacity-0 cursor-pointer z-50" 
-                                    accept=".pdf,.jpg,.jpeg,.png,.bmp"
-                                />
-                                <div id="dropZone" class="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-4 text-center hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-300 ease-in-out">
-                                    <i id="uploadIcon" class="fas fa-cloud-upload-alt text-4xl text-gray-400 dark:text-gray-500 mb-2 transition-all duration-300"></i>
-                                    <p class="text-gray-500 dark:text-gray-400 transition-all duration-300">Drag & Drop or Click to Upload</p>
+                                <input type="file" id="fileInput" class="absolute inset-0 opacity-0 cursor-pointer z-50"
+                                    accept=".pdf,.jpg,.jpeg,.png,.bmp" />
+                                <div id="dropZone"
+                                    class="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-4 text-center hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-300 ease-in-out">
+                                    <i id="uploadIcon"
+                                        class="fas fa-cloud-upload-alt text-4xl text-gray-400 dark:text-gray-500 mb-2 transition-all duration-300"></i>
+                                    <p class="text-gray-500 dark:text-gray-400 transition-all duration-300">Drag & Drop
+                                        or Click to Upload</p>
                                 </div>
                             </div>
                             <p id="fileName" class="text-sm mt-2 text-center text-gray-600 dark:text-gray-300"></p>
@@ -76,49 +80,34 @@
                         <div class="space-y-4">
                             <div>
                                 <label class="block mb-2">Chunk Size</label>
-                                <input 
-                                    type="number" 
-                                    id="chunkSize" 
-                                    class="w-full px-3 py-2 border rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600" 
-                                    value="500" 
-                                    placeholder="Chunk size"
-                                >
+                                <input type="number" id="chunkSize"
+                                    class="w-full px-3 py-2 border rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600"
+                                    value="500" placeholder="Chunk size">
                             </div>
                             <div>
                                 <label class="block mb-2">Chunk Overlap</label>
-                                <input 
-                                    type="number" 
-                                    id="chunkOverlap" 
-                                    class="w-full px-3 py-2 border rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600" 
-                                    value="100" 
-                                    placeholder="Chunk overlap"
-                                >
+                                <input type="number" id="chunkOverlap"
+                                    class="w-full px-3 py-2 border rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600"
+                                    value="100" placeholder="Chunk overlap">
                             </div>
                             <div>
                                 <label class="block mb-2">Separators</label>
-                                <input 
-                                    type="text" 
-                                    id="separators" 
-                                    class="w-full px-3 py-2 border rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600" 
-                                    placeholder="Optional separators"
-                                >
+                                <input type="text" id="separators"
+                                    class="w-full px-3 py-2 border rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600"
+                                    placeholder="Optional separators">
                             </div>
                         </div>
 
                         <!-- Action Buttons -->
                         <div class="flex space-x-4">
-                            <button 
-                                id="processBtn" 
+                            <button id="processBtn"
                                 class="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
-                                disabled
-                            >
+                                disabled>
                                 <i class="fas fa-cogs mr-2"></i>Process
                             </button>
-                            <button 
-                                id="uploadBtn" 
+                            <button id="uploadBtn"
                                 class="w-full bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
-                                disabled
-                            >
+                                disabled>
                                 <i class="fas fa-cloud-upload-alt mr-2"></i>Upload
                             </button>
                         </div>
@@ -136,18 +125,14 @@
                             OCR Text
                         </h2>
                         <div class="w-1/2 bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 overflow-hidden">
-                            <div 
-                                id="progressBar" 
-                                class="bg-blue-500 h-full rounded-full transition-all duration-500 ease-in-out" 
-                                style="width: 0%"
-                            ></div>
+                            <div id="progressBar"
+                                class="bg-blue-500 h-full rounded-full transition-all duration-500 ease-in-out"
+                                style="width: 0%"></div>
                         </div>
                     </div>
-                    <textarea 
-                        id="textArea"
+                    <textarea id="textArea"
                         class="w-full h-64 p-4 border rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 resize-none"
-                        placeholder="OCR extracted text will appear here..."
-                    ></textarea>
+                        placeholder="OCR extracted text will appear here..."></textarea>
                 </div>
 
                 <!-- Logs -->
@@ -156,11 +141,9 @@
                         <i class="fas fa-terminal mr-3 text-green-500"></i>
                         Application Logs
                     </h2>
-                    <textarea 
-                        id="logArea"
+                    <textarea id="logArea"
                         class="w-full h-64 p-4 bg-gray-900 text-green-400 font-mono text-sm rounded-lg resize-none"
-                        readonly
-                    ></textarea>
+                        readonly></textarea>
                 </div>
             </div>
         </div>
@@ -300,37 +283,73 @@
                     body: formData
                 });
 
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-
                 const reader = response.body.getReader();
                 const decoder = new TextDecoder();
-                let result = '';
-                let receivedLength = 0;
+                let fullText = '';
+                let buffer = '';
 
                 while (true) {
                     const { done, value } = await reader.read();
                     if (done) break;
 
                     const chunk = decoder.decode(value);
-                    result += chunk;
-                    textArea.value = result;
-                    textArea.scrollTop = textArea.scrollHeight;
+                    buffer += chunk;
 
-                    // Update progress
-                    receivedLength += value.length;
-                    progressBar.style.width = `${Math.min(100, (receivedLength / (file.size * 2)) * 100)}%`;
+                    // Split events
+                    const events = buffer.split('\n\n');
+                    buffer = events.pop(); // Keep incomplete event in buffer
+
+                    events.forEach(event => {
+                        if (event.startsWith('data: ')) {
+                            try {
+                                const cleanedEvent = event.replace('data: ', '').trim();
+                                const data = JSON.parse(cleanedEvent);
+
+                                // Handle logging
+                                if (data.message) {
+                                    log(data.message);
+                                }
+
+                                // Handle text processing
+                                if (data.text) {
+                                    // Check if text is base64 encoded
+                                    const textToAppend = data.isBase64
+                                        ? atob(data.text)  // Decode base64
+                                        : data.text;
+
+                                    fullText = textToAppend;
+                                    textArea.value = fullText;
+                                    textArea.scrollTop = textArea.scrollHeight;
+                                }
+
+                                // Update progress bar
+                                if (data.pageNumber && data.totalPages) {
+                                    const progressPercentage = Math.min(100, (data.pageNumber / data.totalPages) * 100);
+                                    progressBar.style.width = `${progressPercentage}%`;
+                                }
+
+                                // Handle completion
+                                if (data.isComplete) {
+                                    processBtn.disabled = false;
+                                    uploadBtn.disabled = false;
+                                    progressBar.style.width = '100%';
+
+                                    if (data.error) {
+                                        log(`OCR Processing Error: ${data.error}`);
+                                    } else {
+                                        log('OCR completed successfully');
+                                    }
+                                }
+                            } catch (parseError) {
+                                // More detailed error logging
+                                log(`Error parsing event: ${parseError.message}`);
+                                log(`Problematic event string: ${event}`);
+                            }
+                        }
+                    });
                 }
-
-                log('OCR completed successfully');
-                progressBar.style.width = '100%';
-                processBtn.disabled = false;
-                uploadBtn.disabled = false;
             } catch (error) {
                 log(`OCR Error: ${error.message}`);
-                textArea.value = '';
-                progressBar.style.width = '0%';
                 processBtn.disabled = false;
                 uploadBtn.disabled = true;
             }

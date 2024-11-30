@@ -810,3 +810,1448 @@
 [2024-11-26T22:38:42.679Z] INFO: Processing image: temp_images\page_-5.png
 [2024-11-26T22:38:43.447Z] INFO: OCR completed for file: AI-Assignment 1.pdf
 [2024-11-26T22:40:28.878Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-27T00:17:46.366Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-27T00:18:27.093Z] INFO: Uploaded file: document_small_small.pdf, Original Extension: .pdf
+[2024-11-30T21:54:00.409Z] INFO: Server running on http://0.0.0.0:3000
+[2024-11-30T21:54:51.165Z] INFO: Uploaded file: document_small.pdf, Original Extension: .pdf
+[2024-11-30T21:55:28.436Z] INFO: Uploaded file: document_small.pdf, Original Extension: .pdf
+[2024-11-30T21:55:28.954Z] INFO: Full file path: uploads\file-1733003728437-172749412.pdf
+[2024-11-30T21:55:28.958Z] INFO: File size: 6673640 bytes
+[2024-11-30T21:55:28.959Z] INFO: Original filename: file-1733003728437-172749412.pdf
+[2024-11-30T21:55:28.960Z] INFO: Original file extension: ".pdf"
+[2024-11-30T21:55:28.960Z] INFO: Converting PDF: uploads\file-1733003728437-172749412.pdf
+[2024-11-30T21:56:27.320Z] INFO: Processing page 1: temp_images\page_-01.png
+[2024-11-30T21:56:27.321Z] INFO: Processing image: temp_images\page_-01.png
+[2024-11-30T21:56:27.336Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.337Z] ERROR: Error processing page 1: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.337Z] INFO: Processing page 2: temp_images\page_-02.png
+[2024-11-30T21:56:27.338Z] INFO: Processing image: temp_images\page_-02.png
+[2024-11-30T21:56:27.342Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.342Z] ERROR: Error processing page 2: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.343Z] INFO: Processing page 3: temp_images\page_-03.png
+[2024-11-30T21:56:27.343Z] INFO: Processing image: temp_images\page_-03.png
+[2024-11-30T21:56:27.347Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.347Z] ERROR: Error processing page 3: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.349Z] INFO: Processing page 4: temp_images\page_-04.png
+[2024-11-30T21:56:27.349Z] INFO: Processing image: temp_images\page_-04.png
+[2024-11-30T21:56:27.353Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.354Z] ERROR: Error processing page 4: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.355Z] INFO: Processing page 5: temp_images\page_-05.png
+[2024-11-30T21:56:27.356Z] INFO: Processing image: temp_images\page_-05.png
+[2024-11-30T21:56:27.362Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.363Z] ERROR: Error processing page 5: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.364Z] INFO: Processing page 6: temp_images\page_-06.png
+[2024-11-30T21:56:27.365Z] INFO: Processing image: temp_images\page_-06.png
+[2024-11-30T21:56:27.368Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.370Z] ERROR: Error processing page 6: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.370Z] INFO: Processing page 7: temp_images\page_-07.png
+[2024-11-30T21:56:27.371Z] INFO: Processing image: temp_images\page_-07.png
+[2024-11-30T21:56:27.375Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.376Z] ERROR: Error processing page 7: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.377Z] INFO: Processing page 8: temp_images\page_-08.png
+[2024-11-30T21:56:27.378Z] INFO: Processing image: temp_images\page_-08.png
+[2024-11-30T21:56:27.384Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.385Z] ERROR: Error processing page 8: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.386Z] INFO: Processing page 9: temp_images\page_-09.png
+[2024-11-30T21:56:27.388Z] INFO: Processing image: temp_images\page_-09.png
+[2024-11-30T21:56:27.392Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.393Z] ERROR: Error processing page 9: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.394Z] INFO: Processing page 10: temp_images\page_-10.png
+[2024-11-30T21:56:27.395Z] INFO: Processing image: temp_images\page_-10.png
+[2024-11-30T21:56:27.401Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.402Z] ERROR: Error processing page 10: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.403Z] INFO: Processing page 11: temp_images\page_-11.png
+[2024-11-30T21:56:27.404Z] INFO: Processing image: temp_images\page_-11.png
+[2024-11-30T21:56:27.409Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.410Z] ERROR: Error processing page 11: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.411Z] INFO: Processing page 12: temp_images\page_-12.png
+[2024-11-30T21:56:27.412Z] INFO: Processing image: temp_images\page_-12.png
+[2024-11-30T21:56:27.418Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.420Z] ERROR: Error processing page 12: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.421Z] INFO: Processing page 13: temp_images\page_-13.png
+[2024-11-30T21:56:27.422Z] INFO: Processing image: temp_images\page_-13.png
+[2024-11-30T21:56:27.428Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.429Z] ERROR: Error processing page 13: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.430Z] INFO: Processing page 14: temp_images\page_-14.png
+[2024-11-30T21:56:27.431Z] INFO: Processing image: temp_images\page_-14.png
+[2024-11-30T21:56:27.440Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.444Z] ERROR: Error processing page 14: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.445Z] INFO: Processing page 15: temp_images\page_-15.png
+[2024-11-30T21:56:27.446Z] INFO: Processing image: temp_images\page_-15.png
+[2024-11-30T21:56:27.450Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.451Z] ERROR: Error processing page 15: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.452Z] INFO: Processing page 16: temp_images\page_-16.png
+[2024-11-30T21:56:27.453Z] INFO: Processing image: temp_images\page_-16.png
+[2024-11-30T21:56:27.455Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.457Z] ERROR: Error processing page 16: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.458Z] INFO: Processing page 17: temp_images\page_-17.png
+[2024-11-30T21:56:27.458Z] INFO: Processing image: temp_images\page_-17.png
+[2024-11-30T21:56:27.462Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.464Z] ERROR: Error processing page 17: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.465Z] INFO: Processing page 18: temp_images\page_-18.png
+[2024-11-30T21:56:27.466Z] INFO: Processing image: temp_images\page_-18.png
+[2024-11-30T21:56:27.469Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.470Z] ERROR: Error processing page 18: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.471Z] INFO: Processing page 19: temp_images\page_-19.png
+[2024-11-30T21:56:27.472Z] INFO: Processing image: temp_images\page_-19.png
+[2024-11-30T21:56:27.475Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.477Z] ERROR: Error processing page 19: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.478Z] INFO: Processing page 20: temp_images\page_-20.png
+[2024-11-30T21:56:27.479Z] INFO: Processing image: temp_images\page_-20.png
+[2024-11-30T21:56:27.482Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.483Z] ERROR: Error processing page 20: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:56:27.485Z] INFO: OCR completed for file: document_small.pdf
+[2024-11-30T21:57:27.533Z] INFO: Uploaded file: document_small.pdf, Original Extension: .pdf
+[2024-11-30T21:57:27.650Z] INFO: Full file path: uploads\file-1733003847534-291678401.pdf
+[2024-11-30T21:57:27.653Z] INFO: File size: 6673640 bytes
+[2024-11-30T21:57:27.656Z] INFO: Original filename: file-1733003847534-291678401.pdf
+[2024-11-30T21:57:27.656Z] INFO: Original file extension: ".pdf"
+[2024-11-30T21:57:27.657Z] INFO: Converting PDF: uploads\file-1733003847534-291678401.pdf
+[2024-11-30T21:58:32.487Z] INFO: Processing page 1: temp_images\page_-01.png
+[2024-11-30T21:58:32.488Z] INFO: Processing image: temp_images\page_-01.png
+[2024-11-30T21:58:32.496Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.498Z] ERROR: Error processing page 1: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.499Z] INFO: Processing page 2: temp_images\page_-02.png
+[2024-11-30T21:58:32.501Z] INFO: Processing image: temp_images\page_-02.png
+[2024-11-30T21:58:32.509Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.514Z] ERROR: Error processing page 2: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.517Z] INFO: Processing page 3: temp_images\page_-03.png
+[2024-11-30T21:58:32.518Z] INFO: Processing image: temp_images\page_-03.png
+[2024-11-30T21:58:32.525Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.529Z] ERROR: Error processing page 3: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.530Z] INFO: Processing page 4: temp_images\page_-04.png
+[2024-11-30T21:58:32.531Z] INFO: Processing image: temp_images\page_-04.png
+[2024-11-30T21:58:32.540Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.543Z] ERROR: Error processing page 4: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.544Z] INFO: Processing page 5: temp_images\page_-05.png
+[2024-11-30T21:58:32.545Z] INFO: Processing image: temp_images\page_-05.png
+[2024-11-30T21:58:32.555Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.564Z] ERROR: Error processing page 5: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.567Z] INFO: Processing page 6: temp_images\page_-06.png
+[2024-11-30T21:58:32.568Z] INFO: Processing image: temp_images\page_-06.png
+[2024-11-30T21:58:32.579Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.582Z] ERROR: Error processing page 6: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.583Z] INFO: Processing page 7: temp_images\page_-07.png
+[2024-11-30T21:58:32.584Z] INFO: Processing image: temp_images\page_-07.png
+[2024-11-30T21:58:32.590Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.593Z] ERROR: Error processing page 7: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.595Z] INFO: Processing page 8: temp_images\page_-08.png
+[2024-11-30T21:58:32.596Z] INFO: Processing image: temp_images\page_-08.png
+[2024-11-30T21:58:32.599Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.601Z] ERROR: Error processing page 8: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.601Z] INFO: Processing page 9: temp_images\page_-09.png
+[2024-11-30T21:58:32.602Z] INFO: Processing image: temp_images\page_-09.png
+[2024-11-30T21:58:32.605Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.606Z] ERROR: Error processing page 9: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.609Z] INFO: Processing page 10: temp_images\page_-10.png
+[2024-11-30T21:58:32.610Z] INFO: Processing image: temp_images\page_-10.png
+[2024-11-30T21:58:32.616Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.619Z] ERROR: Error processing page 10: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.621Z] INFO: Processing page 11: temp_images\page_-11.png
+[2024-11-30T21:58:32.622Z] INFO: Processing image: temp_images\page_-11.png
+[2024-11-30T21:58:32.626Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.627Z] ERROR: Error processing page 11: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.630Z] INFO: Processing page 12: temp_images\page_-12.png
+[2024-11-30T21:58:32.631Z] INFO: Processing image: temp_images\page_-12.png
+[2024-11-30T21:58:32.634Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.634Z] ERROR: Error processing page 12: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.636Z] INFO: Processing page 13: temp_images\page_-13.png
+[2024-11-30T21:58:32.636Z] INFO: Processing image: temp_images\page_-13.png
+[2024-11-30T21:58:32.639Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.643Z] ERROR: Error processing page 13: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.645Z] INFO: Processing page 14: temp_images\page_-14.png
+[2024-11-30T21:58:32.646Z] INFO: Processing image: temp_images\page_-14.png
+[2024-11-30T21:58:32.650Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.651Z] ERROR: Error processing page 14: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.652Z] INFO: Processing page 15: temp_images\page_-15.png
+[2024-11-30T21:58:32.652Z] INFO: Processing image: temp_images\page_-15.png
+[2024-11-30T21:58:32.659Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.661Z] ERROR: Error processing page 15: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.663Z] INFO: Processing page 16: temp_images\page_-16.png
+[2024-11-30T21:58:32.664Z] INFO: Processing image: temp_images\page_-16.png
+[2024-11-30T21:58:32.679Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.680Z] ERROR: Error processing page 16: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.681Z] INFO: Processing page 17: temp_images\page_-17.png
+[2024-11-30T21:58:32.682Z] INFO: Processing image: temp_images\page_-17.png
+[2024-11-30T21:58:32.696Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.698Z] ERROR: Error processing page 17: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.698Z] INFO: Processing page 18: temp_images\page_-18.png
+[2024-11-30T21:58:32.699Z] INFO: Processing image: temp_images\page_-18.png
+[2024-11-30T21:58:32.702Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.706Z] ERROR: Error processing page 18: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.708Z] INFO: Processing page 19: temp_images\page_-19.png
+[2024-11-30T21:58:32.709Z] INFO: Processing image: temp_images\page_-19.png
+[2024-11-30T21:58:32.713Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.714Z] ERROR: Error processing page 19: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.714Z] INFO: Processing page 20: temp_images\page_-20.png
+[2024-11-30T21:58:32.715Z] INFO: Processing image: temp_images\page_-20.png
+[2024-11-30T21:58:32.718Z] ERROR: Image Processing Error: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.719Z] ERROR: Error processing page 20: ENOENT: no such file or directory, open 'D:\GitHub\Google-Vision-OCR\pure-beach-438415-m4-c31ae0b69906.json'
+[2024-11-30T21:58:32.720Z] INFO: OCR completed for file: document_small.pdf
+[2024-11-30T22:01:53.545Z] INFO: Server running on http://3000
+[2024-11-30T22:11:17.568Z] INFO: Server running on http://3000
+[2024-11-30T22:11:41.717Z] INFO: Server running on http://3000
+[2024-11-30T22:12:01.029Z] INFO: Server running on http://3000
+[2024-11-30T22:14:16.864Z] INFO: Uploaded file: document_small.pdf, Original Extension: .pdf
+[2024-11-30T22:14:17.304Z] INFO: Full file path: uploads\file-1733004856866-814852494.pdf
+[2024-11-30T22:14:17.307Z] INFO: Converting PDF: uploads\file-1733004856866-814852494.pdf
+[2024-11-30T22:15:42.542Z] INFO: Processing page 1: temp_images\page-01.png
+[2024-11-30T22:15:42.543Z] INFO: Processing image: temp_images\page-01.png
+[2024-11-30T22:15:44.057Z] INFO: Processing page 2: temp_images\page-02.png
+[2024-11-30T22:15:44.059Z] INFO: Processing image: temp_images\page-02.png
+[2024-11-30T22:15:45.151Z] INFO: Processing page 3: temp_images\page-03.png
+[2024-11-30T22:15:45.153Z] INFO: Processing image: temp_images\page-03.png
+[2024-11-30T22:15:46.217Z] INFO: Processing page 4: temp_images\page-04.png
+[2024-11-30T22:15:46.219Z] INFO: Processing image: temp_images\page-04.png
+[2024-11-30T22:15:47.349Z] INFO: Processing page 5: temp_images\page-05.png
+[2024-11-30T22:15:47.350Z] INFO: Processing image: temp_images\page-05.png
+[2024-11-30T22:15:48.427Z] INFO: Processing page 6: temp_images\page-06.png
+[2024-11-30T22:15:48.428Z] INFO: Processing image: temp_images\page-06.png
+[2024-11-30T22:15:49.740Z] INFO: Processing page 7: temp_images\page-07.png
+[2024-11-30T22:15:49.742Z] INFO: Processing image: temp_images\page-07.png
+[2024-11-30T22:15:51.240Z] INFO: Processing page 8: temp_images\page-08.png
+[2024-11-30T22:15:51.241Z] INFO: Processing image: temp_images\page-08.png
+[2024-11-30T22:15:52.823Z] INFO: Processing page 9: temp_images\page-09.png
+[2024-11-30T22:15:52.825Z] INFO: Processing image: temp_images\page-09.png
+[2024-11-30T22:16:02.288Z] INFO: Processing page 10: temp_images\page-10.png
+[2024-11-30T22:16:02.289Z] INFO: Processing image: temp_images\page-10.png
+[2024-11-30T22:16:04.115Z] INFO: Processing page 11: temp_images\page-11.png
+[2024-11-30T22:16:04.116Z] INFO: Processing image: temp_images\page-11.png
+[2024-11-30T22:16:05.596Z] INFO: Processing page 12: temp_images\page-12.png
+[2024-11-30T22:16:05.601Z] INFO: Processing image: temp_images\page-12.png
+[2024-11-30T22:16:07.073Z] INFO: Processing page 13: temp_images\page-13.png
+[2024-11-30T22:16:07.074Z] INFO: Processing image: temp_images\page-13.png
+[2024-11-30T22:16:08.592Z] INFO: Processing page 14: temp_images\page-14.png
+[2024-11-30T22:16:08.593Z] INFO: Processing image: temp_images\page-14.png
+[2024-11-30T22:16:09.916Z] INFO: Processing page 15: temp_images\page-15.png
+[2024-11-30T22:16:09.919Z] INFO: Processing image: temp_images\page-15.png
+[2024-11-30T22:16:10.725Z] INFO: Processing page 16: temp_images\page-16.png
+[2024-11-30T22:16:10.726Z] INFO: Processing image: temp_images\page-16.png
+[2024-11-30T22:16:11.944Z] INFO: Processing page 17: temp_images\page-17.png
+[2024-11-30T22:16:11.945Z] INFO: Processing image: temp_images\page-17.png
+[2024-11-30T22:16:13.156Z] INFO: Processing page 18: temp_images\page-18.png
+[2024-11-30T22:16:13.157Z] INFO: Processing image: temp_images\page-18.png
+[2024-11-30T22:16:14.221Z] INFO: Processing page 19: temp_images\page-19.png
+[2024-11-30T22:16:14.222Z] INFO: Processing image: temp_images\page-19.png
+[2024-11-30T22:16:14.928Z] INFO: Processing page 20: temp_images\page-20.png
+[2024-11-30T22:16:14.929Z] INFO: Processing image: temp_images\page-20.png
+[2024-11-30T22:16:16.106Z] INFO: OCR completed for file: document_small.pdf
+[2024-11-30T22:16:29.755Z] INFO: Uploaded file: document.pdf, Original Extension: .pdf
+[2024-11-30T22:16:30.521Z] INFO: Full file path: uploads\file-1733004989756-354317752.pdf
+[2024-11-30T22:16:30.522Z] INFO: Converting PDF: uploads\file-1733004989756-354317752.pdf
+[2024-11-30T22:30:02.309Z] INFO: Processing page 1: temp_images\page-001.png
+[2024-11-30T22:30:02.315Z] INFO: Processing image: temp_images\page-001.png
+[2024-11-30T22:30:03.690Z] INFO: Processing page 2: temp_images\page-002.png
+[2024-11-30T22:30:03.691Z] INFO: Processing image: temp_images\page-002.png
+[2024-11-30T22:30:04.660Z] INFO: Processing page 3: temp_images\page-003.png
+[2024-11-30T22:30:04.662Z] INFO: Processing image: temp_images\page-003.png
+[2024-11-30T22:30:05.712Z] INFO: Processing page 4: temp_images\page-004.png
+[2024-11-30T22:30:05.713Z] INFO: Processing image: temp_images\page-004.png
+[2024-11-30T22:30:06.780Z] INFO: Processing page 5: temp_images\page-005.png
+[2024-11-30T22:30:06.781Z] INFO: Processing image: temp_images\page-005.png
+[2024-11-30T22:30:07.671Z] INFO: Processing page 6: temp_images\page-006.png
+[2024-11-30T22:30:07.675Z] INFO: Processing image: temp_images\page-006.png
+[2024-11-30T22:30:08.980Z] INFO: Processing page 7: temp_images\page-007.png
+[2024-11-30T22:30:08.981Z] INFO: Processing image: temp_images\page-007.png
+[2024-11-30T22:30:10.252Z] INFO: Processing page 8: temp_images\page-008.png
+[2024-11-30T22:30:10.253Z] INFO: Processing image: temp_images\page-008.png
+[2024-11-30T22:30:11.310Z] INFO: Processing page 9: temp_images\page-009.png
+[2024-11-30T22:30:11.311Z] INFO: Processing image: temp_images\page-009.png
+[2024-11-30T22:30:12.796Z] INFO: Processing page 10: temp_images\page-010.png
+[2024-11-30T22:30:12.797Z] INFO: Processing image: temp_images\page-010.png
+[2024-11-30T22:30:14.232Z] INFO: Processing page 11: temp_images\page-011.png
+[2024-11-30T22:30:14.234Z] INFO: Processing image: temp_images\page-011.png
+[2024-11-30T22:30:15.639Z] INFO: Processing page 12: temp_images\page-012.png
+[2024-11-30T22:30:15.640Z] INFO: Processing image: temp_images\page-012.png
+[2024-11-30T22:30:17.105Z] INFO: Processing page 13: temp_images\page-013.png
+[2024-11-30T22:30:17.105Z] INFO: Processing image: temp_images\page-013.png
+[2024-11-30T22:30:18.488Z] INFO: Processing page 14: temp_images\page-014.png
+[2024-11-30T22:30:18.489Z] INFO: Processing image: temp_images\page-014.png
+[2024-11-30T22:30:19.519Z] INFO: Processing page 15: temp_images\page-015.png
+[2024-11-30T22:30:19.520Z] INFO: Processing image: temp_images\page-015.png
+[2024-11-30T22:30:20.313Z] INFO: Processing page 16: temp_images\page-016.png
+[2024-11-30T22:30:20.315Z] INFO: Processing image: temp_images\page-016.png
+[2024-11-30T22:30:21.467Z] INFO: Processing page 17: temp_images\page-017.png
+[2024-11-30T22:30:21.468Z] INFO: Processing image: temp_images\page-017.png
+[2024-11-30T22:30:22.182Z] INFO: Processing page 18: temp_images\page-018.png
+[2024-11-30T22:30:22.183Z] INFO: Processing image: temp_images\page-018.png
+[2024-11-30T22:30:23.308Z] INFO: Processing page 19: temp_images\page-019.png
+[2024-11-30T22:30:23.309Z] INFO: Processing image: temp_images\page-019.png
+[2024-11-30T22:30:24.050Z] INFO: Processing page 20: temp_images\page-020.png
+[2024-11-30T22:30:24.051Z] INFO: Processing image: temp_images\page-020.png
+[2024-11-30T22:30:25.384Z] INFO: Processing page 21: temp_images\page-021.png
+[2024-11-30T22:30:25.385Z] INFO: Processing image: temp_images\page-021.png
+[2024-11-30T22:30:26.349Z] INFO: Processing page 22: temp_images\page-022.png
+[2024-11-30T22:30:26.350Z] INFO: Processing image: temp_images\page-022.png
+[2024-11-30T22:30:27.591Z] INFO: Processing page 23: temp_images\page-023.png
+[2024-11-30T22:30:27.592Z] INFO: Processing image: temp_images\page-023.png
+[2024-11-30T22:30:28.484Z] INFO: Processing page 24: temp_images\page-024.png
+[2024-11-30T22:30:28.485Z] INFO: Processing image: temp_images\page-024.png
+[2024-11-30T22:30:29.731Z] INFO: Processing page 25: temp_images\page-025.png
+[2024-11-30T22:30:29.732Z] INFO: Processing image: temp_images\page-025.png
+[2024-11-30T22:30:31.034Z] INFO: Processing page 26: temp_images\page-026.png
+[2024-11-30T22:30:31.038Z] INFO: Processing image: temp_images\page-026.png
+[2024-11-30T22:30:31.929Z] INFO: Processing page 27: temp_images\page-027.png
+[2024-11-30T22:30:31.930Z] INFO: Processing image: temp_images\page-027.png
+[2024-11-30T22:30:33.102Z] INFO: Processing page 28: temp_images\page-028.png
+[2024-11-30T22:30:33.103Z] INFO: Processing image: temp_images\page-028.png
+[2024-11-30T22:30:34.400Z] INFO: Processing page 29: temp_images\page-029.png
+[2024-11-30T22:30:34.401Z] INFO: Processing image: temp_images\page-029.png
+[2024-11-30T22:30:35.205Z] INFO: Processing page 30: temp_images\page-030.png
+[2024-11-30T22:30:35.206Z] INFO: Processing image: temp_images\page-030.png
+[2024-11-30T22:30:36.104Z] INFO: Processing page 31: temp_images\page-031.png
+[2024-11-30T22:30:36.105Z] INFO: Processing image: temp_images\page-031.png
+[2024-11-30T22:30:36.918Z] INFO: Processing page 32: temp_images\page-032.png
+[2024-11-30T22:30:36.919Z] INFO: Processing image: temp_images\page-032.png
+[2024-11-30T22:30:37.783Z] INFO: Processing page 33: temp_images\page-033.png
+[2024-11-30T22:30:37.784Z] INFO: Processing image: temp_images\page-033.png
+[2024-11-30T22:30:38.720Z] INFO: Processing page 34: temp_images\page-034.png
+[2024-11-30T22:30:38.721Z] INFO: Processing image: temp_images\page-034.png
+[2024-11-30T22:30:39.596Z] INFO: Processing page 35: temp_images\page-035.png
+[2024-11-30T22:30:39.597Z] INFO: Processing image: temp_images\page-035.png
+[2024-11-30T22:30:40.494Z] INFO: Processing page 36: temp_images\page-036.png
+[2024-11-30T22:30:40.495Z] INFO: Processing image: temp_images\page-036.png
+[2024-11-30T22:30:41.655Z] INFO: Processing page 37: temp_images\page-037.png
+[2024-11-30T22:30:41.656Z] INFO: Processing image: temp_images\page-037.png
+[2024-11-30T22:30:42.280Z] INFO: Processing page 38: temp_images\page-038.png
+[2024-11-30T22:30:42.281Z] INFO: Processing image: temp_images\page-038.png
+[2024-11-30T22:30:43.549Z] INFO: Processing page 39: temp_images\page-039.png
+[2024-11-30T22:30:43.550Z] INFO: Processing image: temp_images\page-039.png
+[2024-11-30T22:30:44.643Z] INFO: Processing page 40: temp_images\page-040.png
+[2024-11-30T22:30:44.644Z] INFO: Processing image: temp_images\page-040.png
+[2024-11-30T22:30:45.239Z] INFO: Processing page 41: temp_images\page-041.png
+[2024-11-30T22:30:45.240Z] INFO: Processing image: temp_images\page-041.png
+[2024-11-30T22:30:46.393Z] INFO: Processing page 42: temp_images\page-042.png
+[2024-11-30T22:30:46.394Z] INFO: Processing image: temp_images\page-042.png
+[2024-11-30T22:30:47.791Z] INFO: Processing page 43: temp_images\page-043.png
+[2024-11-30T22:30:47.792Z] INFO: Processing image: temp_images\page-043.png
+[2024-11-30T22:30:48.525Z] INFO: Processing page 44: temp_images\page-044.png
+[2024-11-30T22:30:48.526Z] INFO: Processing image: temp_images\page-044.png
+[2024-11-30T22:30:49.227Z] INFO: Processing page 45: temp_images\page-045.png
+[2024-11-30T22:30:49.227Z] INFO: Processing image: temp_images\page-045.png
+[2024-11-30T22:30:50.377Z] INFO: Processing page 46: temp_images\page-046.png
+[2024-11-30T22:30:50.378Z] INFO: Processing image: temp_images\page-046.png
+[2024-11-30T22:30:51.493Z] INFO: Processing page 47: temp_images\page-047.png
+[2024-11-30T22:30:51.494Z] INFO: Processing image: temp_images\page-047.png
+[2024-11-30T22:30:52.738Z] INFO: Processing page 48: temp_images\page-048.png
+[2024-11-30T22:30:52.739Z] INFO: Processing image: temp_images\page-048.png
+[2024-11-30T22:30:53.975Z] INFO: Processing page 49: temp_images\page-049.png
+[2024-11-30T22:30:53.976Z] INFO: Processing image: temp_images\page-049.png
+[2024-11-30T22:30:55.255Z] INFO: Processing page 50: temp_images\page-050.png
+[2024-11-30T22:30:55.255Z] INFO: Processing image: temp_images\page-050.png
+[2024-11-30T22:30:56.152Z] INFO: Processing page 51: temp_images\page-051.png
+[2024-11-30T22:30:56.153Z] INFO: Processing image: temp_images\page-051.png
+[2024-11-30T22:30:57.089Z] INFO: Processing page 52: temp_images\page-052.png
+[2024-11-30T22:30:57.090Z] INFO: Processing image: temp_images\page-052.png
+[2024-11-30T22:30:58.006Z] INFO: Processing page 53: temp_images\page-053.png
+[2024-11-30T22:30:58.007Z] INFO: Processing image: temp_images\page-053.png
+[2024-11-30T22:30:58.689Z] INFO: Processing page 54: temp_images\page-054.png
+[2024-11-30T22:30:58.690Z] INFO: Processing image: temp_images\page-054.png
+[2024-11-30T22:30:59.553Z] INFO: Processing page 55: temp_images\page-055.png
+[2024-11-30T22:30:59.554Z] INFO: Processing image: temp_images\page-055.png
+[2024-11-30T22:31:00.549Z] INFO: Processing page 56: temp_images\page-056.png
+[2024-11-30T22:31:00.550Z] INFO: Processing image: temp_images\page-056.png
+[2024-11-30T22:31:01.226Z] INFO: Processing page 57: temp_images\page-057.png
+[2024-11-30T22:31:01.227Z] INFO: Processing image: temp_images\page-057.png
+[2024-11-30T22:31:02.183Z] INFO: Processing page 58: temp_images\page-058.png
+[2024-11-30T22:31:02.184Z] INFO: Processing image: temp_images\page-058.png
+[2024-11-30T22:31:03.238Z] INFO: Processing page 59: temp_images\page-059.png
+[2024-11-30T22:31:03.238Z] INFO: Processing image: temp_images\page-059.png
+[2024-11-30T22:31:03.808Z] INFO: Processing page 60: temp_images\page-060.png
+[2024-11-30T22:31:03.809Z] INFO: Processing image: temp_images\page-060.png
+[2024-11-30T22:31:04.465Z] INFO: Processing page 61: temp_images\page-061.png
+[2024-11-30T22:31:04.466Z] INFO: Processing image: temp_images\page-061.png
+[2024-11-30T22:31:05.225Z] INFO: Processing page 62: temp_images\page-062.png
+[2024-11-30T22:31:05.226Z] INFO: Processing image: temp_images\page-062.png
+[2024-11-30T22:31:06.257Z] INFO: Processing page 63: temp_images\page-063.png
+[2024-11-30T22:31:06.258Z] INFO: Processing image: temp_images\page-063.png
+[2024-11-30T22:31:06.887Z] INFO: Processing page 64: temp_images\page-064.png
+[2024-11-30T22:31:06.888Z] INFO: Processing image: temp_images\page-064.png
+[2024-11-30T22:31:07.513Z] INFO: Processing page 65: temp_images\page-065.png
+[2024-11-30T22:31:07.514Z] INFO: Processing image: temp_images\page-065.png
+[2024-11-30T22:31:08.616Z] INFO: Processing page 66: temp_images\page-066.png
+[2024-11-30T22:31:08.617Z] INFO: Processing image: temp_images\page-066.png
+[2024-11-30T22:31:09.446Z] INFO: Processing page 67: temp_images\page-067.png
+[2024-11-30T22:31:09.447Z] INFO: Processing image: temp_images\page-067.png
+[2024-11-30T22:31:10.117Z] INFO: Processing page 68: temp_images\page-068.png
+[2024-11-30T22:31:10.118Z] INFO: Processing image: temp_images\page-068.png
+[2024-11-30T22:31:10.984Z] INFO: Processing page 69: temp_images\page-069.png
+[2024-11-30T22:31:10.985Z] INFO: Processing image: temp_images\page-069.png
+[2024-11-30T22:31:11.675Z] INFO: Processing page 70: temp_images\page-070.png
+[2024-11-30T22:31:11.676Z] INFO: Processing image: temp_images\page-070.png
+[2024-11-30T22:31:12.241Z] INFO: Processing page 71: temp_images\page-071.png
+[2024-11-30T22:31:12.242Z] INFO: Processing image: temp_images\page-071.png
+[2024-11-30T22:31:13.330Z] INFO: Processing page 72: temp_images\page-072.png
+[2024-11-30T22:31:13.331Z] INFO: Processing image: temp_images\page-072.png
+[2024-11-30T22:31:14.641Z] INFO: Processing page 73: temp_images\page-073.png
+[2024-11-30T22:31:14.644Z] INFO: Processing image: temp_images\page-073.png
+[2024-11-30T22:31:16.094Z] INFO: Processing page 74: temp_images\page-074.png
+[2024-11-30T22:31:16.096Z] INFO: Processing image: temp_images\page-074.png
+[2024-11-30T22:31:16.867Z] INFO: Processing page 75: temp_images\page-075.png
+[2024-11-30T22:31:16.868Z] INFO: Processing image: temp_images\page-075.png
+[2024-11-30T22:31:17.758Z] INFO: Processing page 76: temp_images\page-076.png
+[2024-11-30T22:31:17.762Z] INFO: Processing image: temp_images\page-076.png
+[2024-11-30T22:31:19.016Z] INFO: Processing page 77: temp_images\page-077.png
+[2024-11-30T22:31:19.017Z] INFO: Processing image: temp_images\page-077.png
+[2024-11-30T22:31:19.884Z] INFO: Processing page 78: temp_images\page-078.png
+[2024-11-30T22:31:19.885Z] INFO: Processing image: temp_images\page-078.png
+[2024-11-30T22:31:21.154Z] INFO: Processing page 79: temp_images\page-079.png
+[2024-11-30T22:31:21.155Z] INFO: Processing image: temp_images\page-079.png
+[2024-11-30T22:31:21.946Z] INFO: Processing page 80: temp_images\page-080.png
+[2024-11-30T22:31:21.947Z] INFO: Processing image: temp_images\page-080.png
+[2024-11-30T22:31:22.612Z] INFO: Processing page 81: temp_images\page-081.png
+[2024-11-30T22:31:22.613Z] INFO: Processing image: temp_images\page-081.png
+[2024-11-30T22:31:23.244Z] INFO: Processing page 82: temp_images\page-082.png
+[2024-11-30T22:31:23.245Z] INFO: Processing image: temp_images\page-082.png
+[2024-11-30T22:31:23.910Z] INFO: Processing page 83: temp_images\page-083.png
+[2024-11-30T22:31:23.911Z] INFO: Processing image: temp_images\page-083.png
+[2024-11-30T22:31:24.533Z] INFO: Processing page 84: temp_images\page-084.png
+[2024-11-30T22:31:24.534Z] INFO: Processing image: temp_images\page-084.png
+[2024-11-30T22:31:25.970Z] INFO: Processing page 85: temp_images\page-085.png
+[2024-11-30T22:31:25.971Z] INFO: Processing image: temp_images\page-085.png
+[2024-11-30T22:31:26.686Z] INFO: Processing page 86: temp_images\page-086.png
+[2024-11-30T22:31:26.687Z] INFO: Processing image: temp_images\page-086.png
+[2024-11-30T22:31:27.318Z] INFO: Processing page 87: temp_images\page-087.png
+[2024-11-30T22:31:27.319Z] INFO: Processing image: temp_images\page-087.png
+[2024-11-30T22:31:28.204Z] INFO: Processing page 88: temp_images\page-088.png
+[2024-11-30T22:31:28.205Z] INFO: Processing image: temp_images\page-088.png
+[2024-11-30T22:31:29.304Z] INFO: Processing page 89: temp_images\page-089.png
+[2024-11-30T22:31:29.304Z] INFO: Processing image: temp_images\page-089.png
+[2024-11-30T22:31:29.914Z] INFO: Processing page 90: temp_images\page-090.png
+[2024-11-30T22:31:29.915Z] INFO: Processing image: temp_images\page-090.png
+[2024-11-30T22:31:30.968Z] INFO: Processing page 91: temp_images\page-091.png
+[2024-11-30T22:31:30.969Z] INFO: Processing image: temp_images\page-091.png
+[2024-11-30T22:31:31.738Z] INFO: Processing page 92: temp_images\page-092.png
+[2024-11-30T22:31:31.739Z] INFO: Processing image: temp_images\page-092.png
+[2024-11-30T22:31:32.561Z] INFO: Processing page 93: temp_images\page-093.png
+[2024-11-30T22:31:32.562Z] INFO: Processing image: temp_images\page-093.png
+[2024-11-30T22:31:33.658Z] INFO: Processing page 94: temp_images\page-094.png
+[2024-11-30T22:31:33.661Z] INFO: Processing image: temp_images\page-094.png
+[2024-11-30T22:31:34.326Z] INFO: Processing page 95: temp_images\page-095.png
+[2024-11-30T22:31:34.327Z] INFO: Processing image: temp_images\page-095.png
+[2024-11-30T22:31:35.099Z] INFO: Processing page 96: temp_images\page-096.png
+[2024-11-30T22:31:35.100Z] INFO: Processing image: temp_images\page-096.png
+[2024-11-30T22:31:35.590Z] INFO: Processing page 97: temp_images\page-097.png
+[2024-11-30T22:31:35.591Z] INFO: Processing image: temp_images\page-097.png
+[2024-11-30T22:31:36.558Z] INFO: Processing page 98: temp_images\page-098.png
+[2024-11-30T22:31:36.559Z] INFO: Processing image: temp_images\page-098.png
+[2024-11-30T22:31:37.750Z] INFO: Processing page 99: temp_images\page-099.png
+[2024-11-30T22:31:37.751Z] INFO: Processing image: temp_images\page-099.png
+[2024-11-30T22:31:38.651Z] INFO: Processing page 100: temp_images\page-100.png
+[2024-11-30T22:31:38.652Z] INFO: Processing image: temp_images\page-100.png
+[2024-11-30T22:31:40.179Z] INFO: Processing page 101: temp_images\page-101.png
+[2024-11-30T22:31:40.180Z] INFO: Processing image: temp_images\page-101.png
+[2024-11-30T22:31:40.832Z] INFO: Processing page 102: temp_images\page-102.png
+[2024-11-30T22:31:40.833Z] INFO: Processing image: temp_images\page-102.png
+[2024-11-30T22:31:41.572Z] INFO: Processing page 103: temp_images\page-103.png
+[2024-11-30T22:31:41.573Z] INFO: Processing image: temp_images\page-103.png
+[2024-11-30T22:31:42.172Z] INFO: Processing page 104: temp_images\page-104.png
+[2024-11-30T22:31:42.173Z] INFO: Processing image: temp_images\page-104.png
+[2024-11-30T22:31:42.944Z] INFO: Processing page 105: temp_images\page-105.png
+[2024-11-30T22:31:42.945Z] INFO: Processing image: temp_images\page-105.png
+[2024-11-30T22:31:43.561Z] INFO: Processing page 106: temp_images\page-106.png
+[2024-11-30T22:31:43.562Z] INFO: Processing image: temp_images\page-106.png
+[2024-11-30T22:31:44.204Z] INFO: Processing page 107: temp_images\page-107.png
+[2024-11-30T22:31:44.205Z] INFO: Processing image: temp_images\page-107.png
+[2024-11-30T22:31:45.192Z] INFO: Processing page 108: temp_images\page-108.png
+[2024-11-30T22:31:45.193Z] INFO: Processing image: temp_images\page-108.png
+[2024-11-30T22:31:45.961Z] INFO: Processing page 109: temp_images\page-109.png
+[2024-11-30T22:31:45.962Z] INFO: Processing image: temp_images\page-109.png
+[2024-11-30T22:31:46.608Z] INFO: Processing page 110: temp_images\page-110.png
+[2024-11-30T22:31:46.609Z] INFO: Processing image: temp_images\page-110.png
+[2024-11-30T22:31:47.438Z] INFO: Processing page 111: temp_images\page-111.png
+[2024-11-30T22:31:47.439Z] INFO: Processing image: temp_images\page-111.png
+[2024-11-30T22:31:48.262Z] INFO: Processing page 112: temp_images\page-112.png
+[2024-11-30T22:31:48.262Z] INFO: Processing image: temp_images\page-112.png
+[2024-11-30T22:31:49.570Z] INFO: Processing page 113: temp_images\page-113.png
+[2024-11-30T22:31:49.571Z] INFO: Processing image: temp_images\page-113.png
+[2024-11-30T22:31:50.179Z] INFO: Processing page 114: temp_images\page-114.png
+[2024-11-30T22:31:50.181Z] INFO: Processing image: temp_images\page-114.png
+[2024-11-30T22:31:50.778Z] INFO: Processing page 115: temp_images\page-115.png
+[2024-11-30T22:31:50.779Z] INFO: Processing image: temp_images\page-115.png
+[2024-11-30T22:31:51.565Z] INFO: Processing page 116: temp_images\page-116.png
+[2024-11-30T22:31:51.567Z] INFO: Processing image: temp_images\page-116.png
+[2024-11-30T22:31:52.247Z] INFO: Processing page 117: temp_images\page-117.png
+[2024-11-30T22:31:52.248Z] INFO: Processing image: temp_images\page-117.png
+[2024-11-30T22:31:53.033Z] INFO: Processing page 118: temp_images\page-118.png
+[2024-11-30T22:31:53.034Z] INFO: Processing image: temp_images\page-118.png
+[2024-11-30T22:31:53.898Z] INFO: Processing page 119: temp_images\page-119.png
+[2024-11-30T22:31:53.899Z] INFO: Processing image: temp_images\page-119.png
+[2024-11-30T22:31:54.599Z] INFO: Processing page 120: temp_images\page-120.png
+[2024-11-30T22:31:54.600Z] INFO: Processing image: temp_images\page-120.png
+[2024-11-30T22:31:55.682Z] INFO: Processing page 121: temp_images\page-121.png
+[2024-11-30T22:31:55.683Z] INFO: Processing image: temp_images\page-121.png
+[2024-11-30T22:31:56.454Z] INFO: Processing page 122: temp_images\page-122.png
+[2024-11-30T22:31:56.455Z] INFO: Processing image: temp_images\page-122.png
+[2024-11-30T22:31:57.099Z] INFO: Processing page 123: temp_images\page-123.png
+[2024-11-30T22:31:57.100Z] INFO: Processing image: temp_images\page-123.png
+[2024-11-30T22:31:57.918Z] INFO: Processing page 124: temp_images\page-124.png
+[2024-11-30T22:31:57.919Z] INFO: Processing image: temp_images\page-124.png
+[2024-11-30T22:31:58.831Z] INFO: Processing page 125: temp_images\page-125.png
+[2024-11-30T22:31:58.832Z] INFO: Processing image: temp_images\page-125.png
+[2024-11-30T22:31:59.699Z] INFO: Processing page 126: temp_images\page-126.png
+[2024-11-30T22:31:59.700Z] INFO: Processing image: temp_images\page-126.png
+[2024-11-30T22:32:00.843Z] INFO: Processing page 127: temp_images\page-127.png
+[2024-11-30T22:32:00.844Z] INFO: Processing image: temp_images\page-127.png
+[2024-11-30T22:32:01.543Z] INFO: Processing page 128: temp_images\page-128.png
+[2024-11-30T22:32:01.544Z] INFO: Processing image: temp_images\page-128.png
+[2024-11-30T22:32:02.072Z] INFO: Processing page 129: temp_images\page-129.png
+[2024-11-30T22:32:02.073Z] INFO: Processing image: temp_images\page-129.png
+[2024-11-30T22:32:02.743Z] INFO: Processing page 130: temp_images\page-130.png
+[2024-11-30T22:32:02.744Z] INFO: Processing image: temp_images\page-130.png
+[2024-11-30T22:32:03.365Z] INFO: Processing page 131: temp_images\page-131.png
+[2024-11-30T22:32:03.366Z] INFO: Processing image: temp_images\page-131.png
+[2024-11-30T22:32:04.119Z] INFO: Processing page 132: temp_images\page-132.png
+[2024-11-30T22:32:04.121Z] INFO: Processing image: temp_images\page-132.png
+[2024-11-30T22:32:05.114Z] INFO: Processing page 133: temp_images\page-133.png
+[2024-11-30T22:32:05.114Z] INFO: Processing image: temp_images\page-133.png
+[2024-11-30T22:32:05.907Z] INFO: Processing page 134: temp_images\page-134.png
+[2024-11-30T22:32:05.908Z] INFO: Processing image: temp_images\page-134.png
+[2024-11-30T22:32:06.879Z] INFO: Processing page 135: temp_images\page-135.png
+[2024-11-30T22:32:06.880Z] INFO: Processing image: temp_images\page-135.png
+[2024-11-30T22:32:07.813Z] INFO: Processing page 136: temp_images\page-136.png
+[2024-11-30T22:32:07.814Z] INFO: Processing image: temp_images\page-136.png
+[2024-11-30T22:32:08.978Z] INFO: Processing page 137: temp_images\page-137.png
+[2024-11-30T22:32:08.979Z] INFO: Processing image: temp_images\page-137.png
+[2024-11-30T22:32:09.676Z] INFO: Processing page 138: temp_images\page-138.png
+[2024-11-30T22:32:09.677Z] INFO: Processing image: temp_images\page-138.png
+[2024-11-30T22:32:10.576Z] INFO: Processing page 139: temp_images\page-139.png
+[2024-11-30T22:32:10.577Z] INFO: Processing image: temp_images\page-139.png
+[2024-11-30T22:32:11.243Z] INFO: Processing page 140: temp_images\page-140.png
+[2024-11-30T22:32:11.244Z] INFO: Processing image: temp_images\page-140.png
+[2024-11-30T22:32:12.005Z] INFO: Processing page 141: temp_images\page-141.png
+[2024-11-30T22:32:12.006Z] INFO: Processing image: temp_images\page-141.png
+[2024-11-30T22:32:12.614Z] INFO: Processing page 142: temp_images\page-142.png
+[2024-11-30T22:32:12.616Z] INFO: Processing image: temp_images\page-142.png
+[2024-11-30T22:32:13.394Z] INFO: Processing page 143: temp_images\page-143.png
+[2024-11-30T22:32:13.395Z] INFO: Processing image: temp_images\page-143.png
+[2024-11-30T22:32:14.568Z] INFO: Processing page 144: temp_images\page-144.png
+[2024-11-30T22:32:14.569Z] INFO: Processing image: temp_images\page-144.png
+[2024-11-30T22:32:15.806Z] INFO: Processing page 145: temp_images\page-145.png
+[2024-11-30T22:32:15.807Z] INFO: Processing image: temp_images\page-145.png
+[2024-11-30T22:32:16.405Z] INFO: Processing page 146: temp_images\page-146.png
+[2024-11-30T22:32:16.405Z] INFO: Processing image: temp_images\page-146.png
+[2024-11-30T22:32:17.329Z] INFO: Processing page 147: temp_images\page-147.png
+[2024-11-30T22:32:17.330Z] INFO: Processing image: temp_images\page-147.png
+[2024-11-30T22:32:18.094Z] INFO: Processing page 148: temp_images\page-148.png
+[2024-11-30T22:32:18.095Z] INFO: Processing image: temp_images\page-148.png
+[2024-11-30T22:32:18.931Z] INFO: Processing page 149: temp_images\page-149.png
+[2024-11-30T22:32:18.933Z] INFO: Processing image: temp_images\page-149.png
+[2024-11-30T22:32:19.741Z] INFO: Processing page 150: temp_images\page-150.png
+[2024-11-30T22:32:19.741Z] INFO: Processing image: temp_images\page-150.png
+[2024-11-30T22:32:20.379Z] INFO: Processing page 151: temp_images\page-151.png
+[2024-11-30T22:32:20.381Z] INFO: Processing image: temp_images\page-151.png
+[2024-11-30T22:32:21.382Z] INFO: Processing page 152: temp_images\page-152.png
+[2024-11-30T22:32:21.383Z] INFO: Processing image: temp_images\page-152.png
+[2024-11-30T22:32:21.978Z] INFO: Processing page 153: temp_images\page-153.png
+[2024-11-30T22:32:21.979Z] INFO: Processing image: temp_images\page-153.png
+[2024-11-30T22:32:22.768Z] INFO: Processing page 154: temp_images\page-154.png
+[2024-11-30T22:32:22.769Z] INFO: Processing image: temp_images\page-154.png
+[2024-11-30T22:32:23.513Z] INFO: Processing page 155: temp_images\page-155.png
+[2024-11-30T22:32:23.514Z] INFO: Processing image: temp_images\page-155.png
+[2024-11-30T22:32:24.366Z] INFO: Processing page 156: temp_images\page-156.png
+[2024-11-30T22:32:24.367Z] INFO: Processing image: temp_images\page-156.png
+[2024-11-30T22:32:25.106Z] INFO: Processing page 157: temp_images\page-157.png
+[2024-11-30T22:32:25.107Z] INFO: Processing image: temp_images\page-157.png
+[2024-11-30T22:32:25.817Z] INFO: Processing page 158: temp_images\page-158.png
+[2024-11-30T22:32:25.817Z] INFO: Processing image: temp_images\page-158.png
+[2024-11-30T22:32:26.355Z] INFO: Processing page 159: temp_images\page-159.png
+[2024-11-30T22:32:26.356Z] INFO: Processing image: temp_images\page-159.png
+[2024-11-30T22:32:27.042Z] INFO: Processing page 160: temp_images\page-160.png
+[2024-11-30T22:32:27.043Z] INFO: Processing image: temp_images\page-160.png
+[2024-11-30T22:32:27.586Z] INFO: Processing page 161: temp_images\page-161.png
+[2024-11-30T22:32:27.587Z] INFO: Processing image: temp_images\page-161.png
+[2024-11-30T22:32:28.206Z] INFO: Processing page 162: temp_images\page-162.png
+[2024-11-30T22:32:28.207Z] INFO: Processing image: temp_images\page-162.png
+[2024-11-30T22:32:28.747Z] INFO: Processing page 163: temp_images\page-163.png
+[2024-11-30T22:32:28.748Z] INFO: Processing image: temp_images\page-163.png
+[2024-11-30T22:32:29.593Z] INFO: Processing page 164: temp_images\page-164.png
+[2024-11-30T22:32:29.594Z] INFO: Processing image: temp_images\page-164.png
+[2024-11-30T22:32:30.894Z] INFO: Processing page 165: temp_images\page-165.png
+[2024-11-30T22:32:30.895Z] INFO: Processing image: temp_images\page-165.png
+[2024-11-30T22:32:31.504Z] INFO: Processing page 166: temp_images\page-166.png
+[2024-11-30T22:32:31.505Z] INFO: Processing image: temp_images\page-166.png
+[2024-11-30T22:32:32.149Z] INFO: Processing page 167: temp_images\page-167.png
+[2024-11-30T22:32:32.150Z] INFO: Processing image: temp_images\page-167.png
+[2024-11-30T22:32:32.792Z] INFO: Processing page 168: temp_images\page-168.png
+[2024-11-30T22:32:32.794Z] INFO: Processing image: temp_images\page-168.png
+[2024-11-30T22:32:33.825Z] INFO: Processing page 169: temp_images\page-169.png
+[2024-11-30T22:32:33.826Z] INFO: Processing image: temp_images\page-169.png
+[2024-11-30T22:32:34.470Z] INFO: Processing page 170: temp_images\page-170.png
+[2024-11-30T22:32:34.471Z] INFO: Processing image: temp_images\page-170.png
+[2024-11-30T22:32:34.947Z] INFO: Processing page 171: temp_images\page-171.png
+[2024-11-30T22:32:34.948Z] INFO: Processing image: temp_images\page-171.png
+[2024-11-30T22:32:35.797Z] INFO: Processing page 172: temp_images\page-172.png
+[2024-11-30T22:32:35.800Z] INFO: Processing image: temp_images\page-172.png
+[2024-11-30T22:32:36.651Z] INFO: Processing page 173: temp_images\page-173.png
+[2024-11-30T22:32:36.652Z] INFO: Processing image: temp_images\page-173.png
+[2024-11-30T22:32:37.227Z] INFO: Processing page 174: temp_images\page-174.png
+[2024-11-30T22:32:37.228Z] INFO: Processing image: temp_images\page-174.png
+[2024-11-30T22:32:37.757Z] INFO: Processing page 175: temp_images\page-175.png
+[2024-11-30T22:32:37.758Z] INFO: Processing image: temp_images\page-175.png
+[2024-11-30T22:32:38.387Z] INFO: Processing page 176: temp_images\page-176.png
+[2024-11-30T22:32:38.389Z] INFO: Processing image: temp_images\page-176.png
+[2024-11-30T22:32:39.358Z] INFO: Processing page 177: temp_images\page-177.png
+[2024-11-30T22:32:39.359Z] INFO: Processing image: temp_images\page-177.png
+[2024-11-30T22:32:39.843Z] INFO: Processing page 178: temp_images\page-178.png
+[2024-11-30T22:32:39.843Z] INFO: Processing image: temp_images\page-178.png
+[2024-11-30T22:32:40.424Z] INFO: Processing page 179: temp_images\page-179.png
+[2024-11-30T22:32:40.425Z] INFO: Processing image: temp_images\page-179.png
+[2024-11-30T22:32:41.196Z] INFO: Processing page 180: temp_images\page-180.png
+[2024-11-30T22:32:41.197Z] INFO: Processing image: temp_images\page-180.png
+[2024-11-30T22:32:41.766Z] INFO: Processing page 181: temp_images\page-181.png
+[2024-11-30T22:32:41.767Z] INFO: Processing image: temp_images\page-181.png
+[2024-11-30T22:32:42.400Z] INFO: Processing page 182: temp_images\page-182.png
+[2024-11-30T22:32:42.401Z] INFO: Processing image: temp_images\page-182.png
+[2024-11-30T22:32:42.953Z] INFO: Processing page 183: temp_images\page-183.png
+[2024-11-30T22:32:42.954Z] INFO: Processing image: temp_images\page-183.png
+[2024-11-30T22:32:43.568Z] INFO: Processing page 184: temp_images\page-184.png
+[2024-11-30T22:32:43.569Z] INFO: Processing image: temp_images\page-184.png
+[2024-11-30T22:32:44.384Z] INFO: Processing page 185: temp_images\page-185.png
+[2024-11-30T22:32:44.384Z] INFO: Processing image: temp_images\page-185.png
+[2024-11-30T22:32:45.442Z] INFO: Processing page 186: temp_images\page-186.png
+[2024-11-30T22:32:45.443Z] INFO: Processing image: temp_images\page-186.png
+[2024-11-30T22:32:46.049Z] INFO: Processing page 187: temp_images\page-187.png
+[2024-11-30T22:32:46.050Z] INFO: Processing image: temp_images\page-187.png
+[2024-11-30T22:32:46.568Z] INFO: Processing page 188: temp_images\page-188.png
+[2024-11-30T22:32:46.569Z] INFO: Processing image: temp_images\page-188.png
+[2024-11-30T22:32:47.499Z] INFO: Processing page 189: temp_images\page-189.png
+[2024-11-30T22:32:47.500Z] INFO: Processing image: temp_images\page-189.png
+[2024-11-30T22:32:48.332Z] INFO: Processing page 190: temp_images\page-190.png
+[2024-11-30T22:32:48.332Z] INFO: Processing image: temp_images\page-190.png
+[2024-11-30T22:32:56.940Z] INFO: Processing page 191: temp_images\page-191.png
+[2024-11-30T22:32:56.941Z] INFO: Processing image: temp_images\page-191.png
+[2024-11-30T22:32:58.954Z] INFO: Processing page 192: temp_images\page-192.png
+[2024-11-30T22:32:58.955Z] INFO: Processing image: temp_images\page-192.png
+[2024-11-30T22:33:00.140Z] INFO: Processing page 193: temp_images\page-193.png
+[2024-11-30T22:33:00.141Z] INFO: Processing image: temp_images\page-193.png
+[2024-11-30T22:33:01.050Z] INFO: Processing page 194: temp_images\page-194.png
+[2024-11-30T22:33:01.051Z] INFO: Processing image: temp_images\page-194.png
+[2024-11-30T22:33:02.111Z] INFO: Processing page 195: temp_images\page-195.png
+[2024-11-30T22:33:02.113Z] INFO: Processing image: temp_images\page-195.png
+[2024-11-30T22:33:03.201Z] INFO: Processing page 196: temp_images\page-196.png
+[2024-11-30T22:33:03.202Z] INFO: Processing image: temp_images\page-196.png
+[2024-11-30T22:33:04.145Z] INFO: Processing page 197: temp_images\page-197.png
+[2024-11-30T22:33:04.146Z] INFO: Processing image: temp_images\page-197.png
+[2024-11-30T22:33:04.838Z] INFO: Processing page 198: temp_images\page-198.png
+[2024-11-30T22:33:04.839Z] INFO: Processing image: temp_images\page-198.png
+[2024-11-30T22:33:05.597Z] INFO: Processing page 199: temp_images\page-199.png
+[2024-11-30T22:33:05.598Z] INFO: Processing image: temp_images\page-199.png
+[2024-11-30T22:33:06.282Z] INFO: Processing page 200: temp_images\page-200.png
+[2024-11-30T22:33:06.283Z] INFO: Processing image: temp_images\page-200.png
+[2024-11-30T22:33:06.966Z] INFO: Processing page 201: temp_images\page-201.png
+[2024-11-30T22:33:06.967Z] INFO: Processing image: temp_images\page-201.png
+[2024-11-30T22:33:07.566Z] INFO: Processing page 202: temp_images\page-202.png
+[2024-11-30T22:33:07.567Z] INFO: Processing image: temp_images\page-202.png
+[2024-11-30T22:33:08.186Z] INFO: Processing page 203: temp_images\page-203.png
+[2024-11-30T22:33:08.187Z] INFO: Processing image: temp_images\page-203.png
+[2024-11-30T22:33:08.950Z] INFO: Processing page 204: temp_images\page-204.png
+[2024-11-30T22:33:08.951Z] INFO: Processing image: temp_images\page-204.png
+[2024-11-30T22:33:09.548Z] INFO: Processing page 205: temp_images\page-205.png
+[2024-11-30T22:33:09.549Z] INFO: Processing image: temp_images\page-205.png
+[2024-11-30T22:33:10.139Z] INFO: Processing page 206: temp_images\page-206.png
+[2024-11-30T22:33:10.139Z] INFO: Processing image: temp_images\page-206.png
+[2024-11-30T22:33:10.746Z] INFO: Processing page 207: temp_images\page-207.png
+[2024-11-30T22:33:10.747Z] INFO: Processing image: temp_images\page-207.png
+[2024-11-30T22:33:11.525Z] INFO: Processing page 208: temp_images\page-208.png
+[2024-11-30T22:33:11.526Z] INFO: Processing image: temp_images\page-208.png
+[2024-11-30T22:33:11.980Z] INFO: Processing page 209: temp_images\page-209.png
+[2024-11-30T22:33:11.981Z] INFO: Processing image: temp_images\page-209.png
+[2024-11-30T22:33:12.795Z] INFO: Processing page 210: temp_images\page-210.png
+[2024-11-30T22:33:12.796Z] INFO: Processing image: temp_images\page-210.png
+[2024-11-30T22:33:13.489Z] INFO: Processing page 211: temp_images\page-211.png
+[2024-11-30T22:33:13.490Z] INFO: Processing image: temp_images\page-211.png
+[2024-11-30T22:33:14.136Z] INFO: Processing page 212: temp_images\page-212.png
+[2024-11-30T22:33:14.137Z] INFO: Processing image: temp_images\page-212.png
+[2024-11-30T22:33:14.948Z] INFO: Processing page 213: temp_images\page-213.png
+[2024-11-30T22:33:14.949Z] INFO: Processing image: temp_images\page-213.png
+[2024-11-30T22:33:15.588Z] INFO: Processing page 214: temp_images\page-214.png
+[2024-11-30T22:33:15.589Z] INFO: Processing image: temp_images\page-214.png
+[2024-11-30T22:33:16.226Z] INFO: Processing page 215: temp_images\page-215.png
+[2024-11-30T22:33:16.227Z] INFO: Processing image: temp_images\page-215.png
+[2024-11-30T22:33:16.830Z] INFO: Processing page 216: temp_images\page-216.png
+[2024-11-30T22:33:16.830Z] INFO: Processing image: temp_images\page-216.png
+[2024-11-30T22:33:17.497Z] INFO: Processing page 217: temp_images\page-217.png
+[2024-11-30T22:33:17.498Z] INFO: Processing image: temp_images\page-217.png
+[2024-11-30T22:33:18.371Z] INFO: Processing page 218: temp_images\page-218.png
+[2024-11-30T22:33:18.372Z] INFO: Processing image: temp_images\page-218.png
+[2024-11-30T22:33:18.896Z] INFO: Processing page 219: temp_images\page-219.png
+[2024-11-30T22:33:18.897Z] INFO: Processing image: temp_images\page-219.png
+[2024-11-30T22:33:19.514Z] INFO: Processing page 220: temp_images\page-220.png
+[2024-11-30T22:33:19.515Z] INFO: Processing image: temp_images\page-220.png
+[2024-11-30T22:33:20.145Z] INFO: Processing page 221: temp_images\page-221.png
+[2024-11-30T22:33:20.145Z] INFO: Processing image: temp_images\page-221.png
+[2024-11-30T22:33:20.801Z] INFO: Processing page 222: temp_images\page-222.png
+[2024-11-30T22:33:20.802Z] INFO: Processing image: temp_images\page-222.png
+[2024-11-30T22:33:21.369Z] INFO: Processing page 223: temp_images\page-223.png
+[2024-11-30T22:33:21.369Z] INFO: Processing image: temp_images\page-223.png
+[2024-11-30T22:33:21.978Z] INFO: Processing page 224: temp_images\page-224.png
+[2024-11-30T22:33:21.978Z] INFO: Processing image: temp_images\page-224.png
+[2024-11-30T22:33:22.573Z] INFO: Processing page 225: temp_images\page-225.png
+[2024-11-30T22:33:22.574Z] INFO: Processing image: temp_images\page-225.png
+[2024-11-30T22:33:23.392Z] INFO: Processing page 226: temp_images\page-226.png
+[2024-11-30T22:33:23.392Z] INFO: Processing image: temp_images\page-226.png
+[2024-11-30T22:33:23.954Z] INFO: Processing page 227: temp_images\page-227.png
+[2024-11-30T22:33:23.955Z] INFO: Processing image: temp_images\page-227.png
+[2024-11-30T22:33:26.560Z] INFO: Processing page 228: temp_images\page-228.png
+[2024-11-30T22:33:26.561Z] INFO: Processing image: temp_images\page-228.png
+[2024-11-30T22:33:27.335Z] INFO: Processing page 229: temp_images\page-229.png
+[2024-11-30T22:33:27.336Z] INFO: Processing image: temp_images\page-229.png
+[2024-11-30T22:33:28.090Z] INFO: Processing page 230: temp_images\page-230.png
+[2024-11-30T22:33:28.090Z] INFO: Processing image: temp_images\page-230.png
+[2024-11-30T22:33:29.042Z] INFO: Processing page 231: temp_images\page-231.png
+[2024-11-30T22:33:29.043Z] INFO: Processing image: temp_images\page-231.png
+[2024-11-30T22:33:29.943Z] INFO: Processing page 232: temp_images\page-232.png
+[2024-11-30T22:33:29.943Z] INFO: Processing image: temp_images\page-232.png
+[2024-11-30T22:33:30.806Z] INFO: Processing page 233: temp_images\page-233.png
+[2024-11-30T22:33:30.807Z] INFO: Processing image: temp_images\page-233.png
+[2024-11-30T22:33:31.722Z] INFO: Processing page 234: temp_images\page-234.png
+[2024-11-30T22:33:31.723Z] INFO: Processing image: temp_images\page-234.png
+[2024-11-30T22:33:32.640Z] INFO: Processing page 235: temp_images\page-235.png
+[2024-11-30T22:33:32.641Z] INFO: Processing image: temp_images\page-235.png
+[2024-11-30T22:33:33.423Z] INFO: OCR completed for file: document.pdf
+[2024-11-30T22:38:21.179Z] INFO: Uploaded file: history-of-mathematics-at-stanford.pdf, Original Extension: .pdf
+[2024-11-30T22:38:21.278Z] INFO: Full file path: uploads\file-1733006301180-150785480.pdf
+[2024-11-30T22:38:21.279Z] INFO: Converting PDF: uploads\file-1733006301180-150785480.pdf
+[2024-11-30T22:38:55.001Z] INFO: Processing page 1: temp_images\page-01.png
+[2024-11-30T22:38:55.002Z] INFO: Processing image: temp_images\page-01.png
+[2024-11-30T22:38:58.650Z] INFO: Processing page 2: temp_images\page-02.png
+[2024-11-30T22:38:58.650Z] INFO: Processing image: temp_images\page-02.png
+[2024-11-30T22:39:00.850Z] INFO: Processing page 3: temp_images\page-03.png
+[2024-11-30T22:39:00.851Z] INFO: Processing image: temp_images\page-03.png
+[2024-11-30T22:39:03.441Z] INFO: Processing page 4: temp_images\page-04.png
+[2024-11-30T22:39:03.441Z] INFO: Processing image: temp_images\page-04.png
+[2024-11-30T22:39:05.579Z] INFO: Processing page 5: temp_images\page-05.png
+[2024-11-30T22:39:05.579Z] INFO: Processing image: temp_images\page-05.png
+[2024-11-30T22:39:07.405Z] INFO: Processing page 6: temp_images\page-06.png
+[2024-11-30T22:39:07.406Z] INFO: Processing image: temp_images\page-06.png
+[2024-11-30T22:39:09.822Z] INFO: Processing page 7: temp_images\page-07.png
+[2024-11-30T22:39:09.824Z] INFO: Processing image: temp_images\page-07.png
+[2024-11-30T22:39:12.417Z] INFO: Processing page 8: temp_images\page-08.png
+[2024-11-30T22:39:12.417Z] INFO: Processing image: temp_images\page-08.png
+[2024-11-30T22:39:14.371Z] INFO: Processing page 9: temp_images\page-09.png
+[2024-11-30T22:39:14.371Z] INFO: Processing image: temp_images\page-09.png
+[2024-11-30T22:39:16.794Z] INFO: Processing page 10: temp_images\page-10.png
+[2024-11-30T22:39:16.795Z] INFO: Processing image: temp_images\page-10.png
+[2024-11-30T22:39:18.826Z] INFO: Processing page 11: temp_images\page-11.png
+[2024-11-30T22:39:18.826Z] INFO: Processing image: temp_images\page-11.png
+[2024-11-30T22:39:20.412Z] INFO: Processing page 12: temp_images\page-12.png
+[2024-11-30T22:39:20.413Z] INFO: Processing image: temp_images\page-12.png
+[2024-11-30T22:39:22.352Z] INFO: Processing page 13: temp_images\page-13.png
+[2024-11-30T22:39:22.353Z] INFO: Processing image: temp_images\page-13.png
+[2024-11-30T22:39:24.601Z] INFO: Processing page 14: temp_images\page-14.png
+[2024-11-30T22:39:24.602Z] INFO: Processing image: temp_images\page-14.png
+[2024-11-30T22:39:26.712Z] INFO: Processing page 15: temp_images\page-15.png
+[2024-11-30T22:39:26.713Z] INFO: Processing image: temp_images\page-15.png
+[2024-11-30T22:39:29.089Z] INFO: Processing page 16: temp_images\page-16.png
+[2024-11-30T22:39:29.090Z] INFO: Processing image: temp_images\page-16.png
+[2024-11-30T22:39:31.441Z] INFO: Processing page 17: temp_images\page-17.png
+[2024-11-30T22:39:31.443Z] INFO: Processing image: temp_images\page-17.png
+[2024-11-30T22:39:33.477Z] INFO: Processing page 18: temp_images\page-18.png
+[2024-11-30T22:39:33.478Z] INFO: Processing image: temp_images\page-18.png
+[2024-11-30T22:39:35.626Z] INFO: Processing page 19: temp_images\page-19.png
+[2024-11-30T22:39:35.628Z] INFO: Processing image: temp_images\page-19.png
+[2024-11-30T22:39:37.860Z] INFO: Processing page 20: temp_images\page-20.png
+[2024-11-30T22:39:37.861Z] INFO: Processing image: temp_images\page-20.png
+[2024-11-30T22:39:40.413Z] INFO: Processing page 21: temp_images\page-21.png
+[2024-11-30T22:39:40.414Z] INFO: Processing image: temp_images\page-21.png
+[2024-11-30T22:39:42.781Z] INFO: Processing page 22: temp_images\page-22.png
+[2024-11-30T22:39:42.782Z] INFO: Processing image: temp_images\page-22.png
+[2024-11-30T22:39:44.942Z] INFO: Processing page 23: temp_images\page-23.png
+[2024-11-30T22:39:44.942Z] INFO: Processing image: temp_images\page-23.png
+[2024-11-30T22:39:47.219Z] INFO: Processing page 24: temp_images\page-24.png
+[2024-11-30T22:39:47.220Z] INFO: Processing image: temp_images\page-24.png
+[2024-11-30T22:39:49.773Z] INFO: Processing page 25: temp_images\page-25.png
+[2024-11-30T22:39:49.774Z] INFO: Processing image: temp_images\page-25.png
+[2024-11-30T22:39:51.939Z] INFO: Processing page 26: temp_images\page-26.png
+[2024-11-30T22:39:51.939Z] INFO: Processing image: temp_images\page-26.png
+[2024-11-30T22:39:53.948Z] INFO: Processing page 27: temp_images\page-27.png
+[2024-11-30T22:39:53.949Z] INFO: Processing image: temp_images\page-27.png
+[2024-11-30T22:39:56.522Z] INFO: Processing page 28: temp_images\page-28.png
+[2024-11-30T22:39:56.523Z] INFO: Processing image: temp_images\page-28.png
+[2024-11-30T22:39:58.998Z] INFO: Processing page 29: temp_images\page-29.png
+[2024-11-30T22:39:58.998Z] INFO: Processing image: temp_images\page-29.png
+[2024-11-30T22:40:00.988Z] INFO: Processing page 30: temp_images\page-30.png
+[2024-11-30T22:40:00.988Z] INFO: Processing image: temp_images\page-30.png
+[2024-11-30T22:40:03.309Z] INFO: Processing page 31: temp_images\page-31.png
+[2024-11-30T22:40:03.310Z] INFO: Processing image: temp_images\page-31.png
+[2024-11-30T22:40:05.309Z] INFO: Processing page 32: temp_images\page-32.png
+[2024-11-30T22:40:05.310Z] INFO: Processing image: temp_images\page-32.png
+[2024-11-30T22:40:07.577Z] INFO: Processing page 33: temp_images\page-33.png
+[2024-11-30T22:40:07.578Z] INFO: Processing image: temp_images\page-33.png
+[2024-11-30T22:40:10.065Z] INFO: Processing page 34: temp_images\page-34.png
+[2024-11-30T22:40:10.066Z] INFO: Processing image: temp_images\page-34.png
+[2024-11-30T22:40:12.328Z] INFO: Processing page 35: temp_images\page-35.png
+[2024-11-30T22:40:12.329Z] INFO: Processing image: temp_images\page-35.png
+[2024-11-30T22:40:14.660Z] INFO: Processing page 36: temp_images\page-36.png
+[2024-11-30T22:40:14.661Z] INFO: Processing image: temp_images\page-36.png
+[2024-11-30T22:40:16.682Z] INFO: Processing page 37: temp_images\page-37.png
+[2024-11-30T22:40:16.683Z] INFO: Processing image: temp_images\page-37.png
+[2024-11-30T22:40:19.007Z] INFO: Processing page 38: temp_images\page-38.png
+[2024-11-30T22:40:19.008Z] INFO: Processing image: temp_images\page-38.png
+[2024-11-30T22:40:21.223Z] INFO: Processing page 39: temp_images\page-39.png
+[2024-11-30T22:40:21.224Z] INFO: Processing image: temp_images\page-39.png
+[2024-11-30T22:40:23.201Z] INFO: Processing page 40: temp_images\page-40.png
+[2024-11-30T22:40:23.201Z] INFO: Processing image: temp_images\page-40.png
+[2024-11-30T22:40:25.119Z] INFO: Processing page 41: temp_images\page-41.png
+[2024-11-30T22:40:25.120Z] INFO: Processing image: temp_images\page-41.png
+[2024-11-30T22:40:25.874Z] INFO: Processing page 42: temp_images\page-42.png
+[2024-11-30T22:40:25.875Z] INFO: Processing image: temp_images\page-42.png
+[2024-11-30T22:40:27.442Z] INFO: Processing page 43: temp_images\page-43.png
+[2024-11-30T22:40:27.443Z] INFO: Processing image: temp_images\page-43.png
+[2024-11-30T22:40:29.754Z] INFO: Processing page 44: temp_images\page-44.png
+[2024-11-30T22:40:29.755Z] INFO: Processing image: temp_images\page-44.png
+[2024-11-30T22:40:31.891Z] INFO: OCR completed for file: history-of-mathematics-at-stanford.pdf
+[2024-11-30T22:41:30.565Z] INFO: Uploaded file: history-of-mathematics-at-stanford.pdf, Original Extension: .pdf
+[2024-11-30T22:41:30.631Z] INFO: Full file path: uploads\file-1733006490567-462838336.pdf
+[2024-11-30T22:41:30.632Z] INFO: Converting PDF: uploads\file-1733006490567-462838336.pdf
+[2024-11-30T22:42:08.641Z] INFO: Processing page 1: temp_images\page-01.png
+[2024-11-30T22:42:08.642Z] INFO: Processing image: temp_images\page-01.png
+[2024-11-30T22:42:12.176Z] INFO: Processing page 2: temp_images\page-02.png
+[2024-11-30T22:42:12.177Z] INFO: Processing image: temp_images\page-02.png
+[2024-11-30T22:42:14.302Z] INFO: Processing page 3: temp_images\page-03.png
+[2024-11-30T22:42:14.303Z] INFO: Processing image: temp_images\page-03.png
+[2024-11-30T22:42:16.882Z] INFO: Processing page 4: temp_images\page-04.png
+[2024-11-30T22:42:16.883Z] INFO: Processing image: temp_images\page-04.png
+[2024-11-30T22:42:19.005Z] INFO: Processing page 5: temp_images\page-05.png
+[2024-11-30T22:42:19.006Z] INFO: Processing image: temp_images\page-05.png
+[2024-11-30T22:42:20.770Z] INFO: Processing page 6: temp_images\page-06.png
+[2024-11-30T22:42:20.771Z] INFO: Processing image: temp_images\page-06.png
+[2024-11-30T22:42:23.224Z] INFO: Processing page 7: temp_images\page-07.png
+[2024-11-30T22:42:23.225Z] INFO: Processing image: temp_images\page-07.png
+[2024-11-30T22:42:25.578Z] INFO: Processing page 8: temp_images\page-08.png
+[2024-11-30T22:42:25.579Z] INFO: Processing image: temp_images\page-08.png
+[2024-11-30T22:42:27.371Z] INFO: Processing page 9: temp_images\page-09.png
+[2024-11-30T22:42:27.371Z] INFO: Processing image: temp_images\page-09.png
+[2024-11-30T22:42:29.836Z] INFO: Processing page 10: temp_images\page-10.png
+[2024-11-30T22:42:29.836Z] INFO: Processing image: temp_images\page-10.png
+[2024-11-30T22:42:32.012Z] INFO: Processing page 11: temp_images\page-11.png
+[2024-11-30T22:42:32.012Z] INFO: Processing image: temp_images\page-11.png
+[2024-11-30T22:42:33.610Z] INFO: Processing page 12: temp_images\page-12.png
+[2024-11-30T22:42:33.611Z] INFO: Processing image: temp_images\page-12.png
+[2024-11-30T22:42:35.647Z] INFO: Processing page 13: temp_images\page-13.png
+[2024-11-30T22:42:35.648Z] INFO: Processing image: temp_images\page-13.png
+[2024-11-30T22:42:38.195Z] INFO: Processing page 14: temp_images\page-14.png
+[2024-11-30T22:42:38.195Z] INFO: Processing image: temp_images\page-14.png
+[2024-11-30T22:42:40.487Z] INFO: Processing page 15: temp_images\page-15.png
+[2024-11-30T22:42:40.487Z] INFO: Processing image: temp_images\page-15.png
+[2024-11-30T22:42:42.864Z] INFO: Processing page 16: temp_images\page-16.png
+[2024-11-30T22:42:42.864Z] INFO: Processing image: temp_images\page-16.png
+[2024-11-30T22:42:45.176Z] INFO: Processing page 17: temp_images\page-17.png
+[2024-11-30T22:42:45.177Z] INFO: Processing image: temp_images\page-17.png
+[2024-11-30T22:42:47.361Z] INFO: Processing page 18: temp_images\page-18.png
+[2024-11-30T22:42:47.362Z] INFO: Processing image: temp_images\page-18.png
+[2024-11-30T22:42:49.614Z] INFO: Processing page 19: temp_images\page-19.png
+[2024-11-30T22:42:49.615Z] INFO: Processing image: temp_images\page-19.png
+[2024-11-30T22:42:51.939Z] INFO: Processing page 20: temp_images\page-20.png
+[2024-11-30T22:42:51.940Z] INFO: Processing image: temp_images\page-20.png
+[2024-11-30T22:42:54.287Z] INFO: Processing page 21: temp_images\page-21.png
+[2024-11-30T22:42:54.288Z] INFO: Processing image: temp_images\page-21.png
+[2024-11-30T22:42:56.648Z] INFO: Processing page 22: temp_images\page-22.png
+[2024-11-30T22:42:56.649Z] INFO: Processing image: temp_images\page-22.png
+[2024-11-30T22:42:59.004Z] INFO: Processing page 23: temp_images\page-23.png
+[2024-11-30T22:42:59.005Z] INFO: Processing image: temp_images\page-23.png
+[2024-11-30T22:43:01.317Z] INFO: Processing page 24: temp_images\page-24.png
+[2024-11-30T22:43:01.318Z] INFO: Processing image: temp_images\page-24.png
+[2024-11-30T22:43:03.554Z] INFO: Processing page 25: temp_images\page-25.png
+[2024-11-30T22:43:03.555Z] INFO: Processing image: temp_images\page-25.png
+[2024-11-30T22:43:05.802Z] INFO: Processing page 26: temp_images\page-26.png
+[2024-11-30T22:43:05.803Z] INFO: Processing image: temp_images\page-26.png
+[2024-11-30T22:43:08.105Z] INFO: Processing page 27: temp_images\page-27.png
+[2024-11-30T22:43:08.106Z] INFO: Processing image: temp_images\page-27.png
+[2024-11-30T22:43:10.501Z] INFO: Processing page 28: temp_images\page-28.png
+[2024-11-30T22:43:10.501Z] INFO: Processing image: temp_images\page-28.png
+[2024-11-30T22:43:12.841Z] INFO: Processing page 29: temp_images\page-29.png
+[2024-11-30T22:43:12.842Z] INFO: Processing image: temp_images\page-29.png
+[2024-11-30T22:43:15.032Z] INFO: Processing page 30: temp_images\page-30.png
+[2024-11-30T22:43:15.033Z] INFO: Processing image: temp_images\page-30.png
+[2024-11-30T22:43:17.219Z] INFO: Processing page 31: temp_images\page-31.png
+[2024-11-30T22:43:17.220Z] INFO: Processing image: temp_images\page-31.png
+[2024-11-30T22:43:19.413Z] INFO: Processing page 32: temp_images\page-32.png
+[2024-11-30T22:43:19.414Z] INFO: Processing image: temp_images\page-32.png
+[2024-11-30T22:43:21.919Z] INFO: Processing page 33: temp_images\page-33.png
+[2024-11-30T22:43:21.920Z] INFO: Processing image: temp_images\page-33.png
+[2024-11-30T22:43:24.442Z] INFO: Processing page 34: temp_images\page-34.png
+[2024-11-30T22:43:24.442Z] INFO: Processing image: temp_images\page-34.png
+[2024-11-30T22:43:26.720Z] INFO: Processing page 35: temp_images\page-35.png
+[2024-11-30T22:43:26.721Z] INFO: Processing image: temp_images\page-35.png
+[2024-11-30T22:43:29.108Z] INFO: Processing page 36: temp_images\page-36.png
+[2024-11-30T22:43:29.109Z] INFO: Processing image: temp_images\page-36.png
+[2024-11-30T22:43:31.358Z] INFO: Processing page 37: temp_images\page-37.png
+[2024-11-30T22:43:31.359Z] INFO: Processing image: temp_images\page-37.png
+[2024-11-30T22:43:33.388Z] INFO: Processing page 38: temp_images\page-38.png
+[2024-11-30T22:43:33.389Z] INFO: Processing image: temp_images\page-38.png
+[2024-11-30T22:43:35.601Z] INFO: Processing page 39: temp_images\page-39.png
+[2024-11-30T22:43:35.602Z] INFO: Processing image: temp_images\page-39.png
+[2024-11-30T22:43:37.778Z] INFO: Processing page 40: temp_images\page-40.png
+[2024-11-30T22:43:37.779Z] INFO: Processing image: temp_images\page-40.png
+[2024-11-30T22:43:39.766Z] INFO: Processing page 41: temp_images\page-41.png
+[2024-11-30T22:43:39.767Z] INFO: Processing image: temp_images\page-41.png
+[2024-11-30T22:43:40.528Z] INFO: Processing page 42: temp_images\page-42.png
+[2024-11-30T22:43:40.529Z] INFO: Processing image: temp_images\page-42.png
+[2024-11-30T22:43:42.433Z] INFO: Processing page 43: temp_images\page-43.png
+[2024-11-30T22:43:42.434Z] INFO: Processing image: temp_images\page-43.png
+[2024-11-30T22:43:44.776Z] INFO: Processing page 44: temp_images\page-44.png
+[2024-11-30T22:43:44.777Z] INFO: Processing image: temp_images\page-44.png
+[2024-11-30T22:43:46.846Z] INFO: OCR completed for file: history-of-mathematics-at-stanford.pdf
+[2024-11-30T23:04:01.333Z] INFO: Server running on http://3000
+[2024-11-30T23:04:36.388Z] INFO: Server running on http://3000
+[2024-11-30T23:05:06.216Z] INFO: Uploaded file: history-of-mathematics-at-stanford.pdf, Original Extension: .pdf
+[2024-11-30T23:05:06.565Z] INFO: Full file path: uploads\file-1733007906217-640452946.pdf
+[2024-11-30T23:05:06.566Z] INFO: Converting PDF: uploads\file-1733007906217-640452946.pdf
+[2024-11-30T23:05:40.445Z] INFO: Processing page 1: temp_images\page-01.png
+[2024-11-30T23:05:40.446Z] INFO: Processing image: temp_images\page-01.png
+[2024-11-30T23:05:41.857Z] INFO: Processing page 2: temp_images\page-02.png
+[2024-11-30T23:05:41.858Z] INFO: Processing image: temp_images\page-02.png
+[2024-11-30T23:05:42.907Z] INFO: Processing page 3: temp_images\page-03.png
+[2024-11-30T23:05:42.907Z] INFO: Processing image: temp_images\page-03.png
+[2024-11-30T23:05:43.945Z] INFO: Processing page 4: temp_images\page-04.png
+[2024-11-30T23:05:43.946Z] INFO: Processing image: temp_images\page-04.png
+[2024-11-30T23:05:44.846Z] INFO: Processing page 5: temp_images\page-05.png
+[2024-11-30T23:05:44.846Z] INFO: Processing image: temp_images\page-05.png
+[2024-11-30T23:05:45.687Z] INFO: Processing page 6: temp_images\page-06.png
+[2024-11-30T23:05:45.688Z] INFO: Processing image: temp_images\page-06.png
+[2024-11-30T23:05:46.881Z] INFO: Processing page 7: temp_images\page-07.png
+[2024-11-30T23:05:46.882Z] INFO: Processing image: temp_images\page-07.png
+[2024-11-30T23:05:47.818Z] INFO: Processing page 8: temp_images\page-08.png
+[2024-11-30T23:05:47.819Z] INFO: Processing image: temp_images\page-08.png
+[2024-11-30T23:05:48.722Z] INFO: Processing page 9: temp_images\page-09.png
+[2024-11-30T23:05:48.722Z] INFO: Processing image: temp_images\page-09.png
+[2024-11-30T23:05:49.682Z] INFO: Processing page 10: temp_images\page-10.png
+[2024-11-30T23:05:49.684Z] INFO: Processing image: temp_images\page-10.png
+[2024-11-30T23:05:50.657Z] INFO: Processing page 11: temp_images\page-11.png
+[2024-11-30T23:05:50.658Z] INFO: Processing image: temp_images\page-11.png
+[2024-11-30T23:06:07.527Z] INFO: Processing page 12: temp_images\page-12.png
+[2024-11-30T23:06:07.528Z] INFO: Processing image: temp_images\page-12.png
+[2024-11-30T23:06:08.458Z] INFO: Processing page 13: temp_images\page-13.png
+[2024-11-30T23:06:08.459Z] INFO: Processing image: temp_images\page-13.png
+[2024-11-30T23:06:09.370Z] INFO: Processing page 14: temp_images\page-14.png
+[2024-11-30T23:06:09.371Z] INFO: Processing image: temp_images\page-14.png
+[2024-11-30T23:06:10.392Z] INFO: Processing page 15: temp_images\page-15.png
+[2024-11-30T23:06:10.393Z] INFO: Processing image: temp_images\page-15.png
+[2024-11-30T23:06:11.139Z] INFO: Processing page 16: temp_images\page-16.png
+[2024-11-30T23:06:11.140Z] INFO: Processing image: temp_images\page-16.png
+[2024-11-30T23:06:11.959Z] INFO: Processing page 17: temp_images\page-17.png
+[2024-11-30T23:06:11.961Z] INFO: Processing image: temp_images\page-17.png
+[2024-11-30T23:06:12.887Z] INFO: Processing page 18: temp_images\page-18.png
+[2024-11-30T23:06:12.888Z] INFO: Processing image: temp_images\page-18.png
+[2024-11-30T23:06:13.739Z] INFO: Processing page 19: temp_images\page-19.png
+[2024-11-30T23:06:13.740Z] INFO: Processing image: temp_images\page-19.png
+[2024-11-30T23:06:14.698Z] INFO: Processing page 20: temp_images\page-20.png
+[2024-11-30T23:06:14.699Z] INFO: Processing image: temp_images\page-20.png
+[2024-11-30T23:06:15.676Z] INFO: Processing page 21: temp_images\page-21.png
+[2024-11-30T23:06:15.677Z] INFO: Processing image: temp_images\page-21.png
+[2024-11-30T23:06:16.650Z] INFO: Processing page 22: temp_images\page-22.png
+[2024-11-30T23:06:16.651Z] INFO: Processing image: temp_images\page-22.png
+[2024-11-30T23:06:17.613Z] INFO: Processing page 23: temp_images\page-23.png
+[2024-11-30T23:06:17.614Z] INFO: Processing image: temp_images\page-23.png
+[2024-11-30T23:06:18.661Z] INFO: Processing page 24: temp_images\page-24.png
+[2024-11-30T23:06:18.662Z] INFO: Processing image: temp_images\page-24.png
+[2024-11-30T23:06:19.382Z] INFO: Processing page 25: temp_images\page-25.png
+[2024-11-30T23:06:19.383Z] INFO: Processing image: temp_images\page-25.png
+[2024-11-30T23:06:20.409Z] INFO: Processing page 26: temp_images\page-26.png
+[2024-11-30T23:06:20.410Z] INFO: Processing image: temp_images\page-26.png
+[2024-11-30T23:06:21.329Z] INFO: Processing page 27: temp_images\page-27.png
+[2024-11-30T23:06:21.329Z] INFO: Processing image: temp_images\page-27.png
+[2024-11-30T23:06:22.425Z] INFO: Processing page 28: temp_images\page-28.png
+[2024-11-30T23:06:22.426Z] INFO: Processing image: temp_images\page-28.png
+[2024-11-30T23:06:23.339Z] INFO: Processing page 29: temp_images\page-29.png
+[2024-11-30T23:06:23.340Z] INFO: Processing image: temp_images\page-29.png
+[2024-11-30T23:06:24.225Z] INFO: Processing page 30: temp_images\page-30.png
+[2024-11-30T23:06:24.226Z] INFO: Processing image: temp_images\page-30.png
+[2024-11-30T23:06:25.018Z] INFO: Processing page 31: temp_images\page-31.png
+[2024-11-30T23:06:25.019Z] INFO: Processing image: temp_images\page-31.png
+[2024-11-30T23:06:25.808Z] INFO: Processing page 32: temp_images\page-32.png
+[2024-11-30T23:06:25.809Z] INFO: Processing image: temp_images\page-32.png
+[2024-11-30T23:06:26.631Z] INFO: Processing page 33: temp_images\page-33.png
+[2024-11-30T23:06:26.632Z] INFO: Processing image: temp_images\page-33.png
+[2024-11-30T23:06:27.465Z] INFO: Processing page 34: temp_images\page-34.png
+[2024-11-30T23:06:27.466Z] INFO: Processing image: temp_images\page-34.png
+[2024-11-30T23:06:28.398Z] INFO: Processing page 35: temp_images\page-35.png
+[2024-11-30T23:06:28.399Z] INFO: Processing image: temp_images\page-35.png
+[2024-11-30T23:06:29.264Z] INFO: Processing page 36: temp_images\page-36.png
+[2024-11-30T23:06:29.266Z] INFO: Processing image: temp_images\page-36.png
+[2024-11-30T23:06:30.219Z] INFO: Processing page 37: temp_images\page-37.png
+[2024-11-30T23:06:30.220Z] INFO: Processing image: temp_images\page-37.png
+[2024-11-30T23:06:30.917Z] INFO: Processing page 38: temp_images\page-38.png
+[2024-11-30T23:06:30.918Z] INFO: Processing image: temp_images\page-38.png
+[2024-11-30T23:06:31.704Z] INFO: Processing page 39: temp_images\page-39.png
+[2024-11-30T23:06:31.704Z] INFO: Processing image: temp_images\page-39.png
+[2024-11-30T23:06:32.444Z] INFO: Processing page 40: temp_images\page-40.png
+[2024-11-30T23:06:32.445Z] INFO: Processing image: temp_images\page-40.png
+[2024-11-30T23:06:33.186Z] INFO: Processing page 41: temp_images\page-41.png
+[2024-11-30T23:06:33.187Z] INFO: Processing image: temp_images\page-41.png
+[2024-11-30T23:06:33.524Z] INFO: Processing page 42: temp_images\page-42.png
+[2024-11-30T23:06:33.525Z] INFO: Processing image: temp_images\page-42.png
+[2024-11-30T23:06:34.235Z] INFO: Processing page 43: temp_images\page-43.png
+[2024-11-30T23:06:34.236Z] INFO: Processing image: temp_images\page-43.png
+[2024-11-30T23:06:35.060Z] INFO: Processing page 44: temp_images\page-44.png
+[2024-11-30T23:06:35.061Z] INFO: Processing image: temp_images\page-44.png
+[2024-11-30T23:06:35.878Z] INFO: OCR completed for file: history-of-mathematics-at-stanford.pdf
+[2024-11-30T23:07:42.774Z] INFO: Server running on http://3000
+[2024-11-30T23:07:47.210Z] INFO: Server running on http://3000
+[2024-11-30T23:07:56.363Z] INFO: Server running on http://3000
+[2024-11-30T23:08:10.540Z] INFO: Server running on http://3000
+[2024-11-30T23:08:39.446Z] INFO: Uploaded file: history-of-mathematics-at-stanford.pdf, Original Extension: .pdf
+[2024-11-30T23:08:39.800Z] INFO: Full file path: uploads\file-1733008119447-904208855.pdf
+[2024-11-30T23:08:39.802Z] INFO: Converting PDF: uploads\file-1733008119447-904208855.pdf
+[2024-11-30T23:09:13.372Z] INFO: Processing page 1: temp_images\page-01.png
+[2024-11-30T23:09:13.373Z] INFO: Processing image: temp_images\page-01.png
+[2024-11-30T23:09:14.674Z] INFO: Processing page 2: temp_images\page-02.png
+[2024-11-30T23:09:14.677Z] INFO: Processing image: temp_images\page-02.png
+[2024-11-30T23:09:15.900Z] INFO: Processing page 3: temp_images\page-03.png
+[2024-11-30T23:09:15.901Z] INFO: Processing image: temp_images\page-03.png
+[2024-11-30T23:09:16.923Z] INFO: Processing page 4: temp_images\page-04.png
+[2024-11-30T23:09:16.925Z] INFO: Processing image: temp_images\page-04.png
+[2024-11-30T23:09:17.829Z] INFO: Processing page 5: temp_images\page-05.png
+[2024-11-30T23:09:17.830Z] INFO: Processing image: temp_images\page-05.png
+[2024-11-30T23:09:18.576Z] INFO: Processing page 6: temp_images\page-06.png
+[2024-11-30T23:09:18.578Z] INFO: Processing image: temp_images\page-06.png
+[2024-11-30T23:09:19.523Z] INFO: Processing page 7: temp_images\page-07.png
+[2024-11-30T23:09:19.525Z] INFO: Processing image: temp_images\page-07.png
+[2024-11-30T23:09:20.466Z] INFO: Processing page 8: temp_images\page-08.png
+[2024-11-30T23:09:20.467Z] INFO: Processing image: temp_images\page-08.png
+[2024-11-30T23:09:21.376Z] INFO: Processing page 9: temp_images\page-09.png
+[2024-11-30T23:09:21.376Z] INFO: Processing image: temp_images\page-09.png
+[2024-11-30T23:09:22.298Z] INFO: Processing page 10: temp_images\page-10.png
+[2024-11-30T23:09:22.299Z] INFO: Processing image: temp_images\page-10.png
+[2024-11-30T23:09:23.075Z] INFO: Processing page 11: temp_images\page-11.png
+[2024-11-30T23:09:23.076Z] INFO: Processing image: temp_images\page-11.png
+[2024-11-30T23:09:23.857Z] INFO: Processing page 12: temp_images\page-12.png
+[2024-11-30T23:09:23.858Z] INFO: Processing image: temp_images\page-12.png
+[2024-11-30T23:09:24.713Z] INFO: Processing page 13: temp_images\page-13.png
+[2024-11-30T23:09:24.714Z] INFO: Processing image: temp_images\page-13.png
+[2024-11-30T23:09:25.685Z] INFO: Processing page 14: temp_images\page-14.png
+[2024-11-30T23:09:25.686Z] INFO: Processing image: temp_images\page-14.png
+[2024-11-30T23:09:26.627Z] INFO: Processing page 15: temp_images\page-15.png
+[2024-11-30T23:09:26.628Z] INFO: Processing image: temp_images\page-15.png
+[2024-11-30T23:09:27.591Z] INFO: Processing page 16: temp_images\page-16.png
+[2024-11-30T23:09:27.592Z] INFO: Processing image: temp_images\page-16.png
+[2024-11-30T23:09:28.508Z] INFO: Processing page 17: temp_images\page-17.png
+[2024-11-30T23:09:28.509Z] INFO: Processing image: temp_images\page-17.png
+[2024-11-30T23:09:29.527Z] INFO: Processing page 18: temp_images\page-18.png
+[2024-11-30T23:09:29.527Z] INFO: Processing image: temp_images\page-18.png
+[2024-11-30T23:09:30.314Z] INFO: Processing page 19: temp_images\page-19.png
+[2024-11-30T23:09:30.315Z] INFO: Processing image: temp_images\page-19.png
+[2024-11-30T23:09:31.112Z] INFO: Processing page 20: temp_images\page-20.png
+[2024-11-30T23:09:31.113Z] INFO: Processing image: temp_images\page-20.png
+[2024-11-30T23:09:32.024Z] INFO: Processing page 21: temp_images\page-21.png
+[2024-11-30T23:09:32.024Z] INFO: Processing image: temp_images\page-21.png
+[2024-11-30T23:09:32.836Z] INFO: Processing page 22: temp_images\page-22.png
+[2024-11-30T23:09:32.837Z] INFO: Processing image: temp_images\page-22.png
+[2024-11-30T23:09:33.777Z] INFO: Processing page 23: temp_images\page-23.png
+[2024-11-30T23:09:33.778Z] INFO: Processing image: temp_images\page-23.png
+[2024-11-30T23:09:34.753Z] INFO: Processing page 24: temp_images\page-24.png
+[2024-11-30T23:09:34.754Z] INFO: Processing image: temp_images\page-24.png
+[2024-11-30T23:09:35.635Z] INFO: Processing page 25: temp_images\page-25.png
+[2024-11-30T23:09:35.636Z] INFO: Processing image: temp_images\page-25.png
+[2024-11-30T23:09:36.431Z] INFO: Processing page 26: temp_images\page-26.png
+[2024-11-30T23:09:36.432Z] INFO: Processing image: temp_images\page-26.png
+[2024-11-30T23:09:37.266Z] INFO: Processing page 27: temp_images\page-27.png
+[2024-11-30T23:09:37.267Z] INFO: Processing image: temp_images\page-27.png
+[2024-11-30T23:09:38.160Z] INFO: Processing page 28: temp_images\page-28.png
+[2024-11-30T23:09:38.161Z] INFO: Processing image: temp_images\page-28.png
+[2024-11-30T23:09:38.980Z] INFO: Processing page 29: temp_images\page-29.png
+[2024-11-30T23:09:38.981Z] INFO: Processing image: temp_images\page-29.png
+[2024-11-30T23:09:39.859Z] INFO: Processing page 30: temp_images\page-30.png
+[2024-11-30T23:09:39.860Z] INFO: Processing image: temp_images\page-30.png
+[2024-11-30T23:09:40.734Z] INFO: Processing page 31: temp_images\page-31.png
+[2024-11-30T23:09:40.735Z] INFO: Processing image: temp_images\page-31.png
+[2024-11-30T23:09:41.450Z] INFO: Processing page 32: temp_images\page-32.png
+[2024-11-30T23:09:41.451Z] INFO: Processing image: temp_images\page-32.png
+[2024-11-30T23:09:42.286Z] INFO: Processing page 33: temp_images\page-33.png
+[2024-11-30T23:09:42.287Z] INFO: Processing image: temp_images\page-33.png
+[2024-11-30T23:09:43.132Z] INFO: Processing page 34: temp_images\page-34.png
+[2024-11-30T23:09:43.133Z] INFO: Processing image: temp_images\page-34.png
+[2024-11-30T23:09:44.138Z] INFO: Processing page 35: temp_images\page-35.png
+[2024-11-30T23:09:44.139Z] INFO: Processing image: temp_images\page-35.png
+[2024-11-30T23:09:44.929Z] INFO: Processing page 36: temp_images\page-36.png
+[2024-11-30T23:09:44.930Z] INFO: Processing image: temp_images\page-36.png
+[2024-11-30T23:09:45.825Z] INFO: Processing page 37: temp_images\page-37.png
+[2024-11-30T23:09:45.826Z] INFO: Processing image: temp_images\page-37.png
+[2024-11-30T23:09:46.912Z] INFO: Processing page 38: temp_images\page-38.png
+[2024-11-30T23:09:46.913Z] INFO: Processing image: temp_images\page-38.png
+[2024-11-30T23:09:47.885Z] INFO: Processing page 39: temp_images\page-39.png
+[2024-11-30T23:09:47.886Z] INFO: Processing image: temp_images\page-39.png
+[2024-11-30T23:09:48.747Z] INFO: Processing page 40: temp_images\page-40.png
+[2024-11-30T23:09:48.748Z] INFO: Processing image: temp_images\page-40.png
+[2024-11-30T23:09:49.507Z] INFO: Processing page 41: temp_images\page-41.png
+[2024-11-30T23:09:49.508Z] INFO: Processing image: temp_images\page-41.png
+[2024-11-30T23:09:49.874Z] INFO: Processing page 42: temp_images\page-42.png
+[2024-11-30T23:09:49.875Z] INFO: Processing image: temp_images\page-42.png
+[2024-11-30T23:09:50.690Z] INFO: Processing page 43: temp_images\page-43.png
+[2024-11-30T23:09:50.691Z] INFO: Processing image: temp_images\page-43.png
+[2024-11-30T23:09:51.509Z] INFO: Processing page 44: temp_images\page-44.png
+[2024-11-30T23:09:51.510Z] INFO: Processing image: temp_images\page-44.png
+[2024-11-30T23:09:52.316Z] INFO: OCR completed for file: history-of-mathematics-at-stanford.pdf
+[2024-11-30T23:10:39.425Z] INFO: Uploaded file: history-of-mathematics-at-stanford.pdf, Original Extension: .pdf
+[2024-11-30T23:10:39.556Z] INFO: Full file path: uploads\file-1733008239428-971778174.pdf
+[2024-11-30T23:10:39.557Z] INFO: Converting PDF: uploads\file-1733008239428-971778174.pdf
+[2024-11-30T23:11:13.509Z] INFO: Processing page 1: temp_images\page-01.png
+[2024-11-30T23:11:13.510Z] INFO: Processing image: temp_images\page-01.png
+[2024-11-30T23:11:14.833Z] INFO: Processing page 2: temp_images\page-02.png
+[2024-11-30T23:11:14.834Z] INFO: Processing image: temp_images\page-02.png
+[2024-11-30T23:11:15.791Z] INFO: Processing page 3: temp_images\page-03.png
+[2024-11-30T23:11:15.792Z] INFO: Processing image: temp_images\page-03.png
+[2024-11-30T23:11:16.811Z] INFO: Processing page 4: temp_images\page-04.png
+[2024-11-30T23:11:16.812Z] INFO: Processing image: temp_images\page-04.png
+[2024-11-30T23:11:17.617Z] INFO: Processing page 5: temp_images\page-05.png
+[2024-11-30T23:11:17.618Z] INFO: Processing image: temp_images\page-05.png
+[2024-11-30T23:11:26.045Z] INFO: Processing page 6: temp_images\page-06.png
+[2024-11-30T23:11:26.046Z] INFO: Processing image: temp_images\page-06.png
+[2024-11-30T23:11:26.994Z] INFO: Processing page 7: temp_images\page-07.png
+[2024-11-30T23:11:26.995Z] INFO: Processing image: temp_images\page-07.png
+[2024-11-30T23:11:27.992Z] INFO: Processing page 8: temp_images\page-08.png
+[2024-11-30T23:11:27.993Z] INFO: Processing image: temp_images\page-08.png
+[2024-11-30T23:11:28.923Z] INFO: Processing page 9: temp_images\page-09.png
+[2024-11-30T23:11:28.924Z] INFO: Processing image: temp_images\page-09.png
+[2024-11-30T23:11:29.806Z] INFO: Processing page 10: temp_images\page-10.png
+[2024-11-30T23:11:29.807Z] INFO: Processing image: temp_images\page-10.png
+[2024-11-30T23:11:30.586Z] INFO: Processing page 11: temp_images\page-11.png
+[2024-11-30T23:11:30.587Z] INFO: Processing image: temp_images\page-11.png
+[2024-11-30T23:11:31.349Z] INFO: Processing page 12: temp_images\page-12.png
+[2024-11-30T23:11:31.350Z] INFO: Processing image: temp_images\page-12.png
+[2024-11-30T23:11:32.268Z] INFO: Processing page 13: temp_images\page-13.png
+[2024-11-30T23:11:32.269Z] INFO: Processing image: temp_images\page-13.png
+[2024-11-30T23:11:33.157Z] INFO: Processing page 14: temp_images\page-14.png
+[2024-11-30T23:11:33.158Z] INFO: Processing image: temp_images\page-14.png
+[2024-11-30T23:11:34.036Z] INFO: Processing page 15: temp_images\page-15.png
+[2024-11-30T23:11:34.037Z] INFO: Processing image: temp_images\page-15.png
+[2024-11-30T23:11:34.862Z] INFO: Processing page 16: temp_images\page-16.png
+[2024-11-30T23:11:34.863Z] INFO: Processing image: temp_images\page-16.png
+[2024-11-30T23:11:35.771Z] INFO: Processing page 17: temp_images\page-17.png
+[2024-11-30T23:11:35.771Z] INFO: Processing image: temp_images\page-17.png
+[2024-11-30T23:11:36.700Z] INFO: Processing page 18: temp_images\page-18.png
+[2024-11-30T23:11:36.701Z] INFO: Processing image: temp_images\page-18.png
+[2024-11-30T23:11:37.571Z] INFO: Processing page 19: temp_images\page-19.png
+[2024-11-30T23:11:37.572Z] INFO: Processing image: temp_images\page-19.png
+[2024-11-30T23:11:38.507Z] INFO: Processing page 20: temp_images\page-20.png
+[2024-11-30T23:11:38.508Z] INFO: Processing image: temp_images\page-20.png
+[2024-11-30T23:11:39.406Z] INFO: Processing page 21: temp_images\page-21.png
+[2024-11-30T23:11:39.407Z] INFO: Processing image: temp_images\page-21.png
+[2024-11-30T23:11:40.255Z] INFO: Processing page 22: temp_images\page-22.png
+[2024-11-30T23:11:40.256Z] INFO: Processing image: temp_images\page-22.png
+[2024-11-30T23:11:41.203Z] INFO: Processing page 23: temp_images\page-23.png
+[2024-11-30T23:11:41.205Z] INFO: Processing image: temp_images\page-23.png
+[2024-11-30T23:11:42.123Z] INFO: Processing page 24: temp_images\page-24.png
+[2024-11-30T23:11:42.124Z] INFO: Processing image: temp_images\page-24.png
+[2024-11-30T23:11:42.891Z] INFO: Processing page 25: temp_images\page-25.png
+[2024-11-30T23:11:42.892Z] INFO: Processing image: temp_images\page-25.png
+[2024-11-30T23:11:43.650Z] INFO: Processing page 26: temp_images\page-26.png
+[2024-11-30T23:11:43.651Z] INFO: Processing image: temp_images\page-26.png
+[2024-11-30T23:11:44.526Z] INFO: Processing page 27: temp_images\page-27.png
+[2024-11-30T23:11:44.527Z] INFO: Processing image: temp_images\page-27.png
+[2024-11-30T23:11:45.467Z] INFO: Processing page 28: temp_images\page-28.png
+[2024-11-30T23:11:45.468Z] INFO: Processing image: temp_images\page-28.png
+[2024-11-30T23:11:46.399Z] INFO: Processing page 29: temp_images\page-29.png
+[2024-11-30T23:11:46.400Z] INFO: Processing image: temp_images\page-29.png
+[2024-11-30T23:11:47.245Z] INFO: Processing page 30: temp_images\page-30.png
+[2024-11-30T23:11:47.246Z] INFO: Processing image: temp_images\page-30.png
+[2024-11-30T23:11:48.214Z] INFO: Processing page 31: temp_images\page-31.png
+[2024-11-30T23:11:48.214Z] INFO: Processing image: temp_images\page-31.png
+[2024-11-30T23:11:49.210Z] INFO: Processing page 32: temp_images\page-32.png
+[2024-11-30T23:11:49.210Z] INFO: Processing image: temp_images\page-32.png
+[2024-11-30T23:11:50.237Z] INFO: Processing page 33: temp_images\page-33.png
+[2024-11-30T23:11:50.237Z] INFO: Processing image: temp_images\page-33.png
+[2024-11-30T23:11:51.275Z] INFO: Processing page 34: temp_images\page-34.png
+[2024-11-30T23:11:51.276Z] INFO: Processing image: temp_images\page-34.png
+[2024-11-30T23:11:52.343Z] INFO: Processing page 35: temp_images\page-35.png
+[2024-11-30T23:11:52.344Z] INFO: Processing image: temp_images\page-35.png
+[2024-11-30T23:11:53.149Z] INFO: Processing page 36: temp_images\page-36.png
+[2024-11-30T23:11:53.150Z] INFO: Processing image: temp_images\page-36.png
+[2024-11-30T23:11:54.035Z] INFO: Processing page 37: temp_images\page-37.png
+[2024-11-30T23:11:54.036Z] INFO: Processing image: temp_images\page-37.png
+[2024-11-30T23:11:54.912Z] INFO: Processing page 38: temp_images\page-38.png
+[2024-11-30T23:11:54.913Z] INFO: Processing image: temp_images\page-38.png
+[2024-11-30T23:11:55.669Z] INFO: Processing page 39: temp_images\page-39.png
+[2024-11-30T23:11:55.670Z] INFO: Processing image: temp_images\page-39.png
+[2024-11-30T23:11:56.557Z] INFO: Processing page 40: temp_images\page-40.png
+[2024-11-30T23:11:56.558Z] INFO: Processing image: temp_images\page-40.png
+[2024-11-30T23:11:57.393Z] INFO: Processing page 41: temp_images\page-41.png
+[2024-11-30T23:11:57.394Z] INFO: Processing image: temp_images\page-41.png
+[2024-11-30T23:11:57.754Z] INFO: Processing page 42: temp_images\page-42.png
+[2024-11-30T23:11:57.755Z] INFO: Processing image: temp_images\page-42.png
+[2024-11-30T23:11:58.577Z] INFO: Processing page 43: temp_images\page-43.png
+[2024-11-30T23:11:58.578Z] INFO: Processing image: temp_images\page-43.png
+[2024-11-30T23:11:59.414Z] INFO: Processing page 44: temp_images\page-44.png
+[2024-11-30T23:11:59.415Z] INFO: Processing image: temp_images\page-44.png
+[2024-11-30T23:12:00.302Z] INFO: OCR completed for file: history-of-mathematics-at-stanford.pdf
+[2024-11-30T23:13:15.521Z] INFO: Uploaded file: history-of-mathematics-at-stanford.pdf, Original Extension: .pdf
+[2024-11-30T23:13:15.608Z] INFO: Full file path: uploads\file-1733008395523-387006461.pdf
+[2024-11-30T23:13:15.609Z] INFO: Converting PDF: uploads\file-1733008395523-387006461.pdf
+[2024-11-30T23:13:49.761Z] INFO: Processing page 1: temp_images\page-01.png
+[2024-11-30T23:13:49.761Z] INFO: Processing image: temp_images\page-01.png
+[2024-11-30T23:13:50.856Z] INFO: Processing page 2: temp_images\page-02.png
+[2024-11-30T23:13:50.859Z] INFO: Processing image: temp_images\page-02.png
+[2024-11-30T23:13:51.788Z] INFO: Processing page 3: temp_images\page-03.png
+[2024-11-30T23:13:51.790Z] INFO: Processing image: temp_images\page-03.png
+[2024-11-30T23:13:52.727Z] INFO: Processing page 4: temp_images\page-04.png
+[2024-11-30T23:13:52.728Z] INFO: Processing image: temp_images\page-04.png
+[2024-11-30T23:13:53.471Z] INFO: Processing page 5: temp_images\page-05.png
+[2024-11-30T23:13:53.472Z] INFO: Processing image: temp_images\page-05.png
+[2024-11-30T23:13:54.212Z] INFO: Processing page 6: temp_images\page-06.png
+[2024-11-30T23:13:54.213Z] INFO: Processing image: temp_images\page-06.png
+[2024-11-30T23:13:55.270Z] INFO: Processing page 7: temp_images\page-07.png
+[2024-11-30T23:13:55.271Z] INFO: Processing image: temp_images\page-07.png
+[2024-11-30T23:13:56.259Z] INFO: Processing page 8: temp_images\page-08.png
+[2024-11-30T23:13:56.260Z] INFO: Processing image: temp_images\page-08.png
+[2024-11-30T23:13:57.049Z] INFO: Processing page 9: temp_images\page-09.png
+[2024-11-30T23:13:57.050Z] INFO: Processing image: temp_images\page-09.png
+[2024-11-30T23:13:57.881Z] INFO: Processing page 10: temp_images\page-10.png
+[2024-11-30T23:13:57.882Z] INFO: Processing image: temp_images\page-10.png
+[2024-11-30T23:13:58.664Z] INFO: Processing page 11: temp_images\page-11.png
+[2024-11-30T23:13:58.665Z] INFO: Processing image: temp_images\page-11.png
+[2024-11-30T23:13:59.538Z] INFO: Processing page 12: temp_images\page-12.png
+[2024-11-30T23:13:59.539Z] INFO: Processing image: temp_images\page-12.png
+[2024-11-30T23:14:00.331Z] INFO: Processing page 13: temp_images\page-13.png
+[2024-11-30T23:14:00.332Z] INFO: Processing image: temp_images\page-13.png
+[2024-11-30T23:14:01.309Z] INFO: Processing page 14: temp_images\page-14.png
+[2024-11-30T23:14:01.311Z] INFO: Processing image: temp_images\page-14.png
+[2024-11-30T23:14:02.259Z] INFO: Processing page 15: temp_images\page-15.png
+[2024-11-30T23:14:02.260Z] INFO: Processing image: temp_images\page-15.png
+[2024-11-30T23:14:03.082Z] INFO: Processing page 16: temp_images\page-16.png
+[2024-11-30T23:14:03.083Z] INFO: Processing image: temp_images\page-16.png
+[2024-11-30T23:14:04.035Z] INFO: Processing page 17: temp_images\page-17.png
+[2024-11-30T23:14:04.036Z] INFO: Processing image: temp_images\page-17.png
+[2024-11-30T23:14:04.998Z] INFO: Processing page 18: temp_images\page-18.png
+[2024-11-30T23:14:04.999Z] INFO: Processing image: temp_images\page-18.png
+[2024-11-30T23:14:05.761Z] INFO: Processing page 19: temp_images\page-19.png
+[2024-11-30T23:14:05.762Z] INFO: Processing image: temp_images\page-19.png
+[2024-11-30T23:14:06.549Z] INFO: Processing page 20: temp_images\page-20.png
+[2024-11-30T23:14:06.550Z] INFO: Processing image: temp_images\page-20.png
+[2024-11-30T23:14:07.587Z] INFO: Processing page 21: temp_images\page-21.png
+[2024-11-30T23:14:07.589Z] INFO: Processing image: temp_images\page-21.png
+[2024-11-30T23:14:08.412Z] INFO: Processing page 22: temp_images\page-22.png
+[2024-11-30T23:14:08.413Z] INFO: Processing image: temp_images\page-22.png
+[2024-11-30T23:14:09.227Z] INFO: Processing page 23: temp_images\page-23.png
+[2024-11-30T23:14:09.228Z] INFO: Processing image: temp_images\page-23.png
+[2024-11-30T23:14:10.061Z] INFO: Processing page 24: temp_images\page-24.png
+[2024-11-30T23:14:10.062Z] INFO: Processing image: temp_images\page-24.png
+[2024-11-30T23:14:10.817Z] INFO: Processing page 25: temp_images\page-25.png
+[2024-11-30T23:14:10.818Z] INFO: Processing image: temp_images\page-25.png
+[2024-11-30T23:14:11.561Z] INFO: Processing page 26: temp_images\page-26.png
+[2024-11-30T23:14:11.561Z] INFO: Processing image: temp_images\page-26.png
+[2024-11-30T23:14:12.294Z] INFO: Processing page 27: temp_images\page-27.png
+[2024-11-30T23:14:12.295Z] INFO: Processing image: temp_images\page-27.png
+[2024-11-30T23:14:13.191Z] INFO: Processing page 28: temp_images\page-28.png
+[2024-11-30T23:14:13.192Z] INFO: Processing image: temp_images\page-28.png
+[2024-11-30T23:14:14.005Z] INFO: Processing page 29: temp_images\page-29.png
+[2024-11-30T23:14:14.006Z] INFO: Processing image: temp_images\page-29.png
+[2024-11-30T23:14:14.739Z] INFO: Processing page 30: temp_images\page-30.png
+[2024-11-30T23:14:14.740Z] INFO: Processing image: temp_images\page-30.png
+[2024-11-30T23:14:15.544Z] INFO: Processing page 31: temp_images\page-31.png
+[2024-11-30T23:14:15.545Z] INFO: Processing image: temp_images\page-31.png
+[2024-11-30T23:14:16.359Z] INFO: Processing page 32: temp_images\page-32.png
+[2024-11-30T23:14:16.359Z] INFO: Processing image: temp_images\page-32.png
+[2024-11-30T23:14:17.202Z] INFO: Processing page 33: temp_images\page-33.png
+[2024-11-30T23:14:17.204Z] INFO: Processing image: temp_images\page-33.png
+[2024-11-30T23:14:18.030Z] INFO: Processing page 34: temp_images\page-34.png
+[2024-11-30T23:14:18.031Z] INFO: Processing image: temp_images\page-34.png
+[2024-11-30T23:14:18.975Z] INFO: Processing page 35: temp_images\page-35.png
+[2024-11-30T23:14:18.976Z] INFO: Processing image: temp_images\page-35.png
+[2024-11-30T23:14:19.797Z] INFO: Processing page 36: temp_images\page-36.png
+[2024-11-30T23:14:19.797Z] INFO: Processing image: temp_images\page-36.png
+[2024-11-30T23:14:20.637Z] INFO: Processing page 37: temp_images\page-37.png
+[2024-11-30T23:14:20.638Z] INFO: Processing image: temp_images\page-37.png
+[2024-11-30T23:14:21.460Z] INFO: Processing page 38: temp_images\page-38.png
+[2024-11-30T23:14:21.462Z] INFO: Processing image: temp_images\page-38.png
+[2024-11-30T23:14:22.239Z] INFO: Processing page 39: temp_images\page-39.png
+[2024-11-30T23:14:22.240Z] INFO: Processing image: temp_images\page-39.png
+[2024-11-30T23:14:23.076Z] INFO: Processing page 40: temp_images\page-40.png
+[2024-11-30T23:14:23.077Z] INFO: Processing image: temp_images\page-40.png
+[2024-11-30T23:14:23.795Z] INFO: Processing page 41: temp_images\page-41.png
+[2024-11-30T23:14:23.796Z] INFO: Processing image: temp_images\page-41.png
+[2024-11-30T23:14:24.186Z] INFO: Processing page 42: temp_images\page-42.png
+[2024-11-30T23:14:24.187Z] INFO: Processing image: temp_images\page-42.png
+[2024-11-30T23:14:24.853Z] INFO: Processing page 43: temp_images\page-43.png
+[2024-11-30T23:14:24.854Z] INFO: Processing image: temp_images\page-43.png
+[2024-11-30T23:14:25.709Z] INFO: Processing page 44: temp_images\page-44.png
+[2024-11-30T23:14:25.710Z] INFO: Processing image: temp_images\page-44.png
+[2024-11-30T23:14:26.554Z] INFO: OCR completed for file: history-of-mathematics-at-stanford.pdf
+[2024-11-30T23:18:38.218Z] INFO: Uploaded file: history-of-mathematics-at-stanford.pdf, Original Extension: .pdf
+[2024-11-30T23:18:38.300Z] INFO: Full file path: uploads\file-1733008718219-666395385.pdf
+[2024-11-30T23:18:38.301Z] INFO: Converting PDF: uploads\file-1733008718219-666395385.pdf
+[2024-11-30T23:19:13.143Z] INFO: Processing page 1: temp_images\page-01.png
+[2024-11-30T23:19:13.144Z] INFO: Processing image: temp_images\page-01.png
+[2024-11-30T23:19:14.422Z] INFO: Processing page 2: temp_images\page-02.png
+[2024-11-30T23:19:14.423Z] INFO: Processing image: temp_images\page-02.png
+[2024-11-30T23:19:15.194Z] INFO: Processing page 3: temp_images\page-03.png
+[2024-11-30T23:19:15.194Z] INFO: Processing image: temp_images\page-03.png
+[2024-11-30T23:19:16.091Z] INFO: Processing page 4: temp_images\page-04.png
+[2024-11-30T23:19:16.092Z] INFO: Processing image: temp_images\page-04.png
+[2024-11-30T23:19:16.969Z] INFO: Processing page 5: temp_images\page-05.png
+[2024-11-30T23:19:16.970Z] INFO: Processing image: temp_images\page-05.png
+[2024-11-30T23:19:17.696Z] INFO: Processing page 6: temp_images\page-06.png
+[2024-11-30T23:19:17.697Z] INFO: Processing image: temp_images\page-06.png
+[2024-11-30T23:19:18.665Z] INFO: Processing page 7: temp_images\page-07.png
+[2024-11-30T23:19:18.666Z] INFO: Processing image: temp_images\page-07.png
+[2024-11-30T23:19:19.479Z] INFO: Processing page 8: temp_images\page-08.png
+[2024-11-30T23:19:19.480Z] INFO: Processing image: temp_images\page-08.png
+[2024-11-30T23:19:20.318Z] INFO: Processing page 9: temp_images\page-09.png
+[2024-11-30T23:19:20.319Z] INFO: Processing image: temp_images\page-09.png
+[2024-11-30T23:19:21.241Z] INFO: Processing page 10: temp_images\page-10.png
+[2024-11-30T23:19:21.243Z] INFO: Processing image: temp_images\page-10.png
+[2024-11-30T23:19:22.102Z] INFO: Processing page 11: temp_images\page-11.png
+[2024-11-30T23:19:22.103Z] INFO: Processing image: temp_images\page-11.png
+[2024-11-30T23:19:22.918Z] INFO: Processing page 12: temp_images\page-12.png
+[2024-11-30T23:19:22.919Z] INFO: Processing image: temp_images\page-12.png
+[2024-11-30T23:19:23.765Z] INFO: Processing page 13: temp_images\page-13.png
+[2024-11-30T23:19:23.766Z] INFO: Processing image: temp_images\page-13.png
+[2024-11-30T23:19:24.631Z] INFO: Processing page 14: temp_images\page-14.png
+[2024-11-30T23:19:24.632Z] INFO: Processing image: temp_images\page-14.png
+[2024-11-30T23:19:25.436Z] INFO: Processing page 15: temp_images\page-15.png
+[2024-11-30T23:19:25.436Z] INFO: Processing image: temp_images\page-15.png
+[2024-11-30T23:19:26.419Z] INFO: Processing page 16: temp_images\page-16.png
+[2024-11-30T23:19:26.420Z] INFO: Processing image: temp_images\page-16.png
+[2024-11-30T23:19:27.247Z] INFO: Processing page 17: temp_images\page-17.png
+[2024-11-30T23:19:27.247Z] INFO: Processing image: temp_images\page-17.png
+[2024-11-30T23:19:28.181Z] INFO: Processing page 18: temp_images\page-18.png
+[2024-11-30T23:19:28.182Z] INFO: Processing image: temp_images\page-18.png
+[2024-11-30T23:19:28.988Z] INFO: Processing page 19: temp_images\page-19.png
+[2024-11-30T23:19:28.989Z] INFO: Processing image: temp_images\page-19.png
+[2024-11-30T23:19:29.867Z] INFO: Processing page 20: temp_images\page-20.png
+[2024-11-30T23:19:29.868Z] INFO: Processing image: temp_images\page-20.png
+[2024-11-30T23:19:30.739Z] INFO: Processing page 21: temp_images\page-21.png
+[2024-11-30T23:19:30.740Z] INFO: Processing image: temp_images\page-21.png
+[2024-11-30T23:19:31.523Z] INFO: Processing page 22: temp_images\page-22.png
+[2024-11-30T23:19:31.524Z] INFO: Processing image: temp_images\page-22.png
+[2024-11-30T23:19:32.448Z] INFO: Processing page 23: temp_images\page-23.png
+[2024-11-30T23:19:32.448Z] INFO: Processing image: temp_images\page-23.png
+[2024-11-30T23:19:33.673Z] INFO: Processing page 24: temp_images\page-24.png
+[2024-11-30T23:19:33.673Z] INFO: Processing image: temp_images\page-24.png
+[2024-11-30T23:19:34.483Z] INFO: Processing page 25: temp_images\page-25.png
+[2024-11-30T23:19:34.483Z] INFO: Processing image: temp_images\page-25.png
+[2024-11-30T23:19:35.236Z] INFO: Processing page 26: temp_images\page-26.png
+[2024-11-30T23:19:35.237Z] INFO: Processing image: temp_images\page-26.png
+[2024-11-30T23:19:36.148Z] INFO: Processing page 27: temp_images\page-27.png
+[2024-11-30T23:19:36.149Z] INFO: Processing image: temp_images\page-27.png
+[2024-11-30T23:19:36.894Z] INFO: Processing page 28: temp_images\page-28.png
+[2024-11-30T23:19:36.894Z] INFO: Processing image: temp_images\page-28.png
+[2024-11-30T23:19:37.683Z] INFO: Processing page 29: temp_images\page-29.png
+[2024-11-30T23:19:37.684Z] INFO: Processing image: temp_images\page-29.png
+[2024-11-30T23:19:38.530Z] INFO: Processing page 30: temp_images\page-30.png
+[2024-11-30T23:19:38.531Z] INFO: Processing image: temp_images\page-30.png
+[2024-11-30T23:19:39.352Z] INFO: Processing page 31: temp_images\page-31.png
+[2024-11-30T23:19:39.353Z] INFO: Processing image: temp_images\page-31.png
+[2024-11-30T23:19:40.133Z] INFO: Processing page 32: temp_images\page-32.png
+[2024-11-30T23:19:40.136Z] INFO: Processing image: temp_images\page-32.png
+[2024-11-30T23:19:40.988Z] INFO: Processing page 33: temp_images\page-33.png
+[2024-11-30T23:19:40.989Z] INFO: Processing image: temp_images\page-33.png
+[2024-11-30T23:19:41.921Z] INFO: Processing page 34: temp_images\page-34.png
+[2024-11-30T23:19:41.922Z] INFO: Processing image: temp_images\page-34.png
+[2024-11-30T23:19:42.678Z] INFO: Processing page 35: temp_images\page-35.png
+[2024-11-30T23:19:42.679Z] INFO: Processing image: temp_images\page-35.png
+[2024-11-30T23:19:43.844Z] INFO: Processing page 36: temp_images\page-36.png
+[2024-11-30T23:19:43.845Z] INFO: Processing image: temp_images\page-36.png
+[2024-11-30T23:19:44.747Z] INFO: Processing page 37: temp_images\page-37.png
+[2024-11-30T23:19:44.748Z] INFO: Processing image: temp_images\page-37.png
+[2024-11-30T23:19:45.655Z] INFO: Processing page 38: temp_images\page-38.png
+[2024-11-30T23:19:45.656Z] INFO: Processing image: temp_images\page-38.png
+[2024-11-30T23:19:46.385Z] INFO: Processing page 39: temp_images\page-39.png
+[2024-11-30T23:19:46.385Z] INFO: Processing image: temp_images\page-39.png
+[2024-11-30T23:19:47.154Z] INFO: Processing page 40: temp_images\page-40.png
+[2024-11-30T23:19:47.155Z] INFO: Processing image: temp_images\page-40.png
+[2024-11-30T23:19:47.875Z] INFO: Processing page 41: temp_images\page-41.png
+[2024-11-30T23:19:47.876Z] INFO: Processing image: temp_images\page-41.png
+[2024-11-30T23:19:48.241Z] INFO: Processing page 42: temp_images\page-42.png
+[2024-11-30T23:19:48.242Z] INFO: Processing image: temp_images\page-42.png
+[2024-11-30T23:19:48.962Z] INFO: Processing page 43: temp_images\page-43.png
+[2024-11-30T23:19:48.963Z] INFO: Processing image: temp_images\page-43.png
+[2024-11-30T23:19:49.896Z] INFO: Processing page 44: temp_images\page-44.png
+[2024-11-30T23:19:49.897Z] INFO: Processing image: temp_images\page-44.png
+[2024-11-30T23:19:51.082Z] INFO: OCR completed for file: history-of-mathematics-at-stanford.pdf
+[2024-11-30T23:21:38.479Z] INFO: Server running on http://3000
+[2024-11-30T23:22:35.228Z] INFO: Uploaded file: history-of-mathematics-at-stanford.pdf, Original Extension: .pdf
+[2024-11-30T23:22:35.620Z] INFO: Full file path: uploads\file-1733008955229-284156846.pdf
+[2024-11-30T23:22:35.622Z] INFO: Converting PDF: uploads\file-1733008955229-284156846.pdf
+[2024-11-30T23:23:09.327Z] INFO: Processing page 1: temp_images\page-01.png
+[2024-11-30T23:23:09.328Z] INFO: Processing image: temp_images\page-01.png
+[2024-11-30T23:23:10.543Z] INFO: Processing page 2: temp_images\page-02.png
+[2024-11-30T23:23:10.544Z] INFO: Processing image: temp_images\page-02.png
+[2024-11-30T23:23:11.407Z] INFO: Processing page 3: temp_images\page-03.png
+[2024-11-30T23:23:11.408Z] INFO: Processing image: temp_images\page-03.png
+[2024-11-30T23:23:12.525Z] INFO: Processing page 4: temp_images\page-04.png
+[2024-11-30T23:23:12.526Z] INFO: Processing image: temp_images\page-04.png
+[2024-11-30T23:23:13.376Z] INFO: Processing page 5: temp_images\page-05.png
+[2024-11-30T23:23:13.377Z] INFO: Processing image: temp_images\page-05.png
+[2024-11-30T23:23:14.249Z] INFO: Processing page 6: temp_images\page-06.png
+[2024-11-30T23:23:14.250Z] INFO: Processing image: temp_images\page-06.png
+[2024-11-30T23:23:15.184Z] INFO: Processing page 7: temp_images\page-07.png
+[2024-11-30T23:23:15.185Z] INFO: Processing image: temp_images\page-07.png
+[2024-11-30T23:23:16.184Z] INFO: Processing page 8: temp_images\page-08.png
+[2024-11-30T23:23:16.185Z] INFO: Processing image: temp_images\page-08.png
+[2024-11-30T23:23:17.054Z] INFO: Processing page 9: temp_images\page-09.png
+[2024-11-30T23:23:17.055Z] INFO: Processing image: temp_images\page-09.png
+[2024-11-30T23:23:17.923Z] INFO: Processing page 10: temp_images\page-10.png
+[2024-11-30T23:23:17.924Z] INFO: Processing image: temp_images\page-10.png
+[2024-11-30T23:23:18.814Z] INFO: Processing page 11: temp_images\page-11.png
+[2024-11-30T23:23:18.815Z] INFO: Processing image: temp_images\page-11.png
+[2024-11-30T23:23:19.867Z] INFO: Processing page 12: temp_images\page-12.png
+[2024-11-30T23:23:19.867Z] INFO: Processing image: temp_images\page-12.png
+[2024-11-30T23:23:20.792Z] INFO: Processing page 13: temp_images\page-13.png
+[2024-11-30T23:23:20.792Z] INFO: Processing image: temp_images\page-13.png
+[2024-11-30T23:23:21.740Z] INFO: Processing page 14: temp_images\page-14.png
+[2024-11-30T23:23:21.741Z] INFO: Processing image: temp_images\page-14.png
+[2024-11-30T23:23:22.619Z] INFO: Processing page 15: temp_images\page-15.png
+[2024-11-30T23:23:22.620Z] INFO: Processing image: temp_images\page-15.png
+[2024-11-30T23:23:23.632Z] INFO: Processing page 16: temp_images\page-16.png
+[2024-11-30T23:23:23.633Z] INFO: Processing image: temp_images\page-16.png
+[2024-11-30T23:23:24.499Z] INFO: Processing page 17: temp_images\page-17.png
+[2024-11-30T23:23:24.499Z] INFO: Processing image: temp_images\page-17.png
+[2024-11-30T23:23:25.339Z] INFO: Processing page 18: temp_images\page-18.png
+[2024-11-30T23:23:25.340Z] INFO: Processing image: temp_images\page-18.png
+[2024-11-30T23:23:26.212Z] INFO: Processing page 19: temp_images\page-19.png
+[2024-11-30T23:23:26.213Z] INFO: Processing image: temp_images\page-19.png
+[2024-11-30T23:23:27.169Z] INFO: Processing page 20: temp_images\page-20.png
+[2024-11-30T23:23:27.170Z] INFO: Processing image: temp_images\page-20.png
+[2024-11-30T23:23:28.084Z] INFO: Processing page 21: temp_images\page-21.png
+[2024-11-30T23:23:28.085Z] INFO: Processing image: temp_images\page-21.png
+[2024-11-30T23:23:28.938Z] INFO: Processing page 22: temp_images\page-22.png
+[2024-11-30T23:23:28.939Z] INFO: Processing image: temp_images\page-22.png
+[2024-11-30T23:23:29.909Z] INFO: Processing page 23: temp_images\page-23.png
+[2024-11-30T23:23:29.910Z] INFO: Processing image: temp_images\page-23.png
+[2024-11-30T23:23:30.724Z] INFO: Processing page 24: temp_images\page-24.png
+[2024-11-30T23:23:30.725Z] INFO: Processing image: temp_images\page-24.png
+[2024-11-30T23:23:31.576Z] INFO: Processing page 25: temp_images\page-25.png
+[2024-11-30T23:23:31.577Z] INFO: Processing image: temp_images\page-25.png
+[2024-11-30T23:23:32.470Z] INFO: Processing page 26: temp_images\page-26.png
+[2024-11-30T23:23:32.471Z] INFO: Processing image: temp_images\page-26.png
+[2024-11-30T23:23:33.327Z] INFO: Processing page 27: temp_images\page-27.png
+[2024-11-30T23:23:33.328Z] INFO: Processing image: temp_images\page-27.png
+[2024-11-30T23:23:34.279Z] INFO: Processing page 28: temp_images\page-28.png
+[2024-11-30T23:23:34.280Z] INFO: Processing image: temp_images\page-28.png
+[2024-11-30T23:23:35.318Z] INFO: Processing page 29: temp_images\page-29.png
+[2024-11-30T23:23:35.319Z] INFO: Processing image: temp_images\page-29.png
+[2024-11-30T23:23:36.088Z] INFO: Processing page 30: temp_images\page-30.png
+[2024-11-30T23:23:36.089Z] INFO: Processing image: temp_images\page-30.png
+[2024-11-30T23:23:36.951Z] INFO: Processing page 31: temp_images\page-31.png
+[2024-11-30T23:23:36.952Z] INFO: Processing image: temp_images\page-31.png
+[2024-11-30T23:23:37.719Z] INFO: Processing page 32: temp_images\page-32.png
+[2024-11-30T23:23:37.720Z] INFO: Processing image: temp_images\page-32.png
+[2024-11-30T23:23:38.604Z] INFO: Processing page 33: temp_images\page-33.png
+[2024-11-30T23:23:38.605Z] INFO: Processing image: temp_images\page-33.png
+[2024-11-30T23:23:39.547Z] INFO: Processing page 34: temp_images\page-34.png
+[2024-11-30T23:23:39.548Z] INFO: Processing image: temp_images\page-34.png
+[2024-11-30T23:23:40.484Z] INFO: Processing page 35: temp_images\page-35.png
+[2024-11-30T23:23:40.485Z] INFO: Processing image: temp_images\page-35.png
+[2024-11-30T23:23:41.469Z] INFO: Processing page 36: temp_images\page-36.png
+[2024-11-30T23:23:41.470Z] INFO: Processing image: temp_images\page-36.png
+[2024-11-30T23:23:42.257Z] INFO: Processing page 37: temp_images\page-37.png
+[2024-11-30T23:23:42.258Z] INFO: Processing image: temp_images\page-37.png
+[2024-11-30T23:23:43.234Z] INFO: Processing page 38: temp_images\page-38.png
+[2024-11-30T23:23:43.235Z] INFO: Processing image: temp_images\page-38.png
+[2024-11-30T23:23:44.131Z] INFO: Processing page 39: temp_images\page-39.png
+[2024-11-30T23:23:44.132Z] INFO: Processing image: temp_images\page-39.png
+[2024-11-30T23:23:44.956Z] INFO: Processing page 40: temp_images\page-40.png
+[2024-11-30T23:23:44.957Z] INFO: Processing image: temp_images\page-40.png
+[2024-11-30T23:23:45.730Z] INFO: Processing page 41: temp_images\page-41.png
+[2024-11-30T23:23:45.731Z] INFO: Processing image: temp_images\page-41.png
+[2024-11-30T23:23:46.068Z] INFO: Processing page 42: temp_images\page-42.png
+[2024-11-30T23:23:46.069Z] INFO: Processing image: temp_images\page-42.png
+[2024-11-30T23:23:46.764Z] INFO: Processing page 43: temp_images\page-43.png
+[2024-11-30T23:23:46.765Z] INFO: Processing image: temp_images\page-43.png
+[2024-11-30T23:23:47.554Z] INFO: Processing page 44: temp_images\page-44.png
+[2024-11-30T23:23:47.555Z] INFO: Processing image: temp_images\page-44.png
+[2024-11-30T23:23:48.443Z] INFO: OCR completed for file: history-of-mathematics-at-stanford.pdf
+[2024-11-30T23:29:04.051Z] INFO: Server running on http://3000
+[2024-11-30T23:32:46.800Z] INFO: Server running on http://3000
